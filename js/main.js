@@ -744,7 +744,10 @@ const TRANSLATIONS = {
       "contact": "Inquiry",
       "bookNow": "Book Now",
       "menuAria": "Toggle navigation menu",
-      "langSwitchAria": "Switch language to Croatian"
+      "langSwitchAria": "Switch language to Croatian",
+      "themeToggleAria": "Switch to light theme",
+      "themeLightAria": "Switch to dark theme",
+      "themeDarkAria": "Switch to light theme"
     },
     "hero": {
       "badge": "5-Star Luxury Private Villa • Otočac, Lika",
@@ -1048,7 +1051,10 @@ const TRANSLATIONS = {
       "contact": "Upit",
       "bookNow": "Rezerviraj",
       "menuAria": "Otvori navigacijski izbornik",
-      "langSwitchAria": "Prebaci jezik na engleski"
+      "langSwitchAria": "Prebaci jezik na engleski",
+      "themeToggleAria": "Prebaci na svijetlu temu",
+      "themeLightAria": "Prebaci na tamnu temu",
+      "themeDarkAria": "Prebaci na svijetlu temu"
     },
     "hero": {
       "badge": "Luksuzna kuća za odmor s 5 zvjezdica • Otočac, Lika",
@@ -1335,6 +1341,13 @@ const TRANSLATIONS = {
   }
 };
 
+// Theme state & immediate application (prevents FOUC)
+let currentTheme = (typeof localStorage !== 'undefined' && localStorage.getItem('vila_tila_theme')) || 
+  (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+if (typeof document !== 'undefined' && document.documentElement) {
+  document.documentElement.setAttribute('data-theme', currentTheme);
+}
+
 // Global state
 let currentLanguage = localStorage.getItem('vila_tila_lang') || 'en';
 let currentFilter = 'all';
@@ -1344,6 +1357,7 @@ let lastFocusedElement = null;
 
 // Initialization
 document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   initLanguage();
   initNavigation();
   initGallery();
@@ -1354,6 +1368,45 @@ document.addEventListener('DOMContentLoaded', () => {
   initBackToTop();
   initCookieConsent();
 });
+
+function initTheme() {
+  const themeToggleBtn = document.getElementById('theme-toggle-btn');
+  const themeToggleIcon = document.getElementById('theme-toggle-icon');
+
+  const updateThemeUI = (theme) => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('vila_tila_theme', theme);
+    currentTheme = theme;
+
+    if (themeToggleIcon) {
+      if (theme === 'light') {
+        themeToggleIcon.classList.remove('fa-sun');
+        themeToggleIcon.classList.add('fa-moon');
+      } else {
+        themeToggleIcon.classList.remove('fa-moon');
+        themeToggleIcon.classList.add('fa-sun');
+      }
+    }
+
+    if (themeToggleBtn) {
+      const t = TRANSLATIONS[currentLanguage]?.nav;
+      const ariaLabel = theme === 'light' 
+        ? (t?.themeLightAria || 'Switch to dark theme') 
+        : (t?.themeDarkAria || 'Switch to light theme');
+      themeToggleBtn.setAttribute('aria-label', ariaLabel);
+      themeToggleBtn.setAttribute('title', ariaLabel);
+    }
+  };
+
+  updateThemeUI(currentTheme);
+
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+      const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+      updateThemeUI(nextTheme);
+    });
+  }
+}
 
 function initLanguage() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -1426,6 +1479,14 @@ function setLanguage(lang) {
   if (langBtn) {
     langBtn.setAttribute('aria-label', t.nav.langSwitchAria);
     langBtn.setAttribute('title', lang === 'en' ? 'Prebaci na hrvatski jezik' : 'Switch to English');
+  }
+
+  // Update Theme toggle button label
+  const themeBtn = document.getElementById('theme-toggle-btn');
+  if (themeBtn) {
+    const themeAria = currentTheme === 'light' ? t.nav.themeLightAria : t.nav.themeDarkAria;
+    themeBtn.setAttribute('aria-label', themeAria);
+    themeBtn.setAttribute('title', themeAria);
   }
 
   // Re-render gallery images to update alt and sr_desc texts

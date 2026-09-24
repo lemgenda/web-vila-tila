@@ -190,8 +190,12 @@
             </li>
           </ul>
         </nav>
-        <!-- Header Actions: Language Switcher & CTA -->
+        <!-- Header Actions: Theme Switcher, Language Switcher & CTA -->
         <div class="header-actions">
+          <!-- Theme Toggle Button (Light/Dark Mode, Accessible) -->
+          <button aria-label="Switch to light theme" class="theme-toggle-btn" data-i18n-aria="nav.themeToggleAria" id="theme-toggle-btn" title="Toggle theme" type="button">
+            <i aria-hidden="true" class="fa-solid fa-sun" id="theme-toggle-icon"></i>
+          </button>
           <!-- Language Switcher Toggle Button (Accessible) -->
           <button aria-label="Switch language to Croatian" class="lang-toggle-btn" data-i18n-aria="nav.langSwitchAria" id="lang-toggle-btn" title="Switch language" type="button">
             <i aria-hidden="true" class="fa-solid fa-globe lang-flag-icon"></i>
