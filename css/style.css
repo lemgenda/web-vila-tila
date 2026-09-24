@@ -1472,6 +1472,13 @@ button {
   flex-shrink: 0;
 }
 
+svg.distance-icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .distance-title {
   font-size: 0.9rem;
   color: var(--color-text-muted);
