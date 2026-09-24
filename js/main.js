@@ -995,7 +995,26 @@ const TRANSLATIONS = {
       "phonePlaceholder": "+385 91 123 4567",
       "messagePlaceholder": "Tell us about your trip, preferred dates, or special requests...",
       "checkInPlaceholder": "dd/mm/yyyy",
-      "checkOutPlaceholder": "dd/mm/yyyy"
+      "checkOutPlaceholder": "dd/mm/yyyy",
+      "gdprConsent": "I agree to the processing of my details to handle this inquiry in accordance with the Privacy Policy."
+    },
+    "cookies": {
+      "title": "Privacy & Cookies",
+      "text": "We only use essential functional storage (such as language preference) to deliver a seamless experience. We do not use third-party tracking or advertising cookies.",
+      "acceptBtn": "Accept",
+      "policyBtn": "Privacy Policy"
+    },
+    "privacy": {
+      "modalTitle": "Privacy Policy & GDPR Statement",
+      "controllerTitle": "1. Data Controller",
+      "controllerText": "Vila Tila (Novasol CCL380), Prozor, Otočac, Lika-Senj County, Croatia. For privacy inquiries, contact us via the official inquiry form.",
+      "purposeTitle": "2. Purpose of Data Processing",
+      "purposeText": "Personal information provided in the inquiry form (name, email, phone number) is processed solely for answering your booking inquiries and organizing your stay.",
+      "legalTitle": "3. Legal Basis & Retention",
+      "legalText": "Data is processed under GDPR Article 6(1)(b) (pre-contractual steps) and retained only for the duration necessary to manage your booking request.",
+      "rightsTitle": "4. Your Rights",
+      "rightsText": "You have the right to request access to, rectification of, or erasure of your personal data at any time. You also have the right to lodge a complaint with the Croatian Personal Data Protection Agency (AZOP).",
+      "closeBtn": "Close Privacy Policy"
     },
     "footer": {
       "tagline": "Exclusive 5-star private villa with heated indoor pool, Finnish sauna, and alpine comfort in the heart of Lika, Croatia.",
@@ -1280,7 +1299,26 @@ const TRANSLATIONS = {
       "phonePlaceholder": "+385 91 123 4567",
       "messagePlaceholder": "Upišite vaše želje, upite ili planirano vrijeme dolaska...",
       "checkInPlaceholder": "dd/mm/yyyy",
-      "checkOutPlaceholder": "dd/mm/yyyy"
+      "checkOutPlaceholder": "dd/mm/yyyy",
+      "gdprConsent": "Suglasan/na sam s obradom mojih podataka u svrhu obrade ovog upita sukladno Pravilima privatnosti."
+    },
+    "cookies": {
+      "title": "Privatnost i kolačići",
+      "text": "Koristimo isključivo nužnu tehničku pohranu (poput odabira jezika) za besprijekoran rad stranice. Ne koristimo kolačiće trećih strana niti praćenje.",
+      "acceptBtn": "Prihvati",
+      "policyBtn": "Pravila privatnosti"
+    },
+    "privacy": {
+      "modalTitle": "Pravila privatnosti i GDPR zaštita podataka",
+      "controllerTitle": "1. Voditelj obrade podataka",
+      "controllerText": "Vila Tila (Novasol CCL380), Prozor, Otočac, Ličko-senjska županija, Hrvatska. Za sve upite o privatnosti možete nas kontaktirati putem obrasca za upit.",
+      "purposeTitle": "2. Svrha obrade podataka",
+      "purposeText": "Osobni podaci koje navedete u obrascu za upit (ime i prezime, adresa e-pošte, broj telefona) obrađuju se isključivo radi odgovaranja na vaš upit i organizacije vašeg boravka.",
+      "legalTitle": "3. Pravna osnova i čuvanje podataka",
+      "legalText": "Podaci se obrađuju temeljem članka 6. stavka 1. točke (b) Opće uredbe o zaštiti podataka (GDPR) te se čuvaju samo onoliko koliko je nužno za obradu upita.",
+      "rightsTitle": "4. Vaša prava",
+      "rightsText": "U svakom trenutku imate pravo zatražiti uvid, ispravak ili brisanje vaših osobnih podataka, kao i pravo na podnošenje pritužbe Agenciji za zaštitu osobnih podataka (AZOP).",
+      "closeBtn": "Zatvori pravila privatnosti"
     },
     "footer": {
       "tagline": "Ekskluzivna kuća za odmor s 5 zvjezdica, grijanim unutarnjim bazenom, finskom saunom i planinskim komforom u srcu Like.",
@@ -1314,6 +1352,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initBookingWidget();
   initA11y();
   initBackToTop();
+  initCookieConsent();
 });
 
 function initLanguage() {
@@ -2096,3 +2135,60 @@ function initBackToTop() {
     if (hero) hero.focus({ preventScroll: true });
   });
 }
+
+function initCookieConsent() {
+  const banner = document.getElementById('cookie-banner');
+  const acceptBtn = document.getElementById('cookie-accept-btn');
+  const policyBtn = document.getElementById('cookie-policy-btn');
+  const footerPrivacyBtn = document.getElementById('footer-privacy-btn');
+  const modal = document.getElementById('privacy-modal');
+  const closeBtn = document.getElementById('privacy-modal-close-btn');
+  const dismissBtn = document.getElementById('privacy-modal-dismiss-btn');
+  const overlay = document.getElementById('privacy-modal-overlay');
+
+  const hasConsent = localStorage.getItem('vila_tila_cookie_consent');
+  if (!hasConsent && banner) {
+    banner.hidden = false;
+  }
+
+  if (acceptBtn && banner) {
+    acceptBtn.addEventListener('click', () => {
+      localStorage.setItem('vila_tila_cookie_consent', 'accepted');
+      banner.hidden = true;
+    });
+  }
+
+  let prevFocus = null;
+
+  const openPrivacyModal = () => {
+    if (modal) {
+      prevFocus = document.activeElement;
+      modal.hidden = false;
+      modal.setAttribute('aria-hidden', 'false');
+      closeBtn?.focus();
+    }
+  };
+
+  const closePrivacyModal = () => {
+    if (modal) {
+      modal.hidden = true;
+      modal.setAttribute('aria-hidden', 'true');
+      if (prevFocus && typeof prevFocus.focus === 'function') {
+        prevFocus.focus();
+      }
+    }
+  };
+
+  policyBtn?.addEventListener('click', openPrivacyModal);
+  footerPrivacyBtn?.addEventListener('click', openPrivacyModal);
+  closeBtn?.addEventListener('click', closePrivacyModal);
+  dismissBtn?.addEventListener('click', closePrivacyModal);
+  overlay?.addEventListener('click', closePrivacyModal);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal && !modal.hidden) {
+      closePrivacyModal();
+    }
+  });
+}
+

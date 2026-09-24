@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lemgenda.github.io/web-vila-tila/sitemap.xml

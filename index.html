@@ -12,7 +12,7 @@
 <meta content="Vila Tila, villa with indoor pool Croatia, luxury holiday house Otocac, villa with heated pool Lika, Gacka river accommodation, cottage with sauna Croatia, CCL380 Novasol, kuća za odmor Otočac bazen, kuca za odmor Prozor, fly fishing Gacka accommodation" name="keywords"/>
 <meta content="Vila Tila" name="author"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://www.novasol.hr/smjestaj/otocac-prozor-ccl380" rel="canonical"/>
+<link href="https://lemgenda.github.io/web-vila-tila/" rel="canonical"/>
 <!-- Geographic Location Tags -->
 <meta content="HR-09" name="geo.region"/>
 <meta content="Prozor, Otočac" name="geo.placename"/>
@@ -20,17 +20,17 @@
 <meta content="44.836474, 15.261228" name="ICBM"/>
 <!-- Open Graph / Facebook -->
 <meta content="website" property="og:type"/>
-<meta content="https://www.novasol.hr/smjestaj/otocac-prozor-ccl380" property="og:url"/>
+<meta content="https://lemgenda.github.io/web-vila-tila/" property="og:url"/>
 <meta content="Vila Tila | Luxury 5-Star Villa with Heated Indoor Pool &amp; Sauna" property="og:title"/>
 <meta content="5-star luxury villa in Otočac, Lika with 21m² heated indoor pool, Finnish sauna, EV charger &amp; nature by river Gacka. Book your peaceful retreat." property="og:description"/>
-<meta content="images/BackgroundDayImage.webp" property="og:image"/>
+<meta content="https://lemgenda.github.io/web-vila-tila/images/BackgroundDayImage.webp" property="og:image"/>
 <meta content="en_US" property="og:locale"/>
 <meta content="hr_HR" property="og:locale:alternate"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Vila Tila | Luxury 5-Star Villa with Heated Indoor Pool &amp; Sauna" name="twitter:title"/>
 <meta content="5-star luxury villa in Otočac, Lika with 21m² heated indoor pool, Finnish sauna, EV charger &amp; nature by river Gacka. Book your peaceful retreat." name="twitter:description"/>
-<meta content="images/BackgroundDayImage.webp" name="twitter:image"/>
+<meta content="https://lemgenda.github.io/web-vila-tila/images/BackgroundDayImage.webp" name="twitter:image"/>
 <!-- Theme Color & Mobile Chrome Settings -->
 <meta content="#0a0e14" name="theme-color"/>
 <!-- Favicon -->
@@ -1028,6 +1028,12 @@
 <label class="form-label" data-i18n="inquiry.message" for="form-message">Special Requests or Questions</label>
 <textarea class="form-control" id="form-message" name="message" placeholder="Tell us about your trip..." data-i18n-placeholder="inquiry.messagePlaceholder" rows="4"></textarea>
 </div>
+<div class="form-group form-gdpr-group">
+<label class="checkbox-label" for="form-gdpr">
+<input class="form-checkbox" id="form-gdpr" name="gdpr" required="" type="checkbox"/>
+<span data-i18n="inquiry.gdprConsent">I agree to the processing of my details to handle this inquiry in accordance with the Privacy Policy.</span>
+</label>
+</div>
 <button class="btn-primary" style="width: 100%;" type="submit">
 <i aria-hidden="true" class="fa-solid fa-paper-plane"></i>
 <span data-i18n="inquiry.submitBtn">Send Inquiry</span>
@@ -1130,6 +1136,7 @@
 </div>
 <div class="footer-bottom">
 <span data-i18n="footer.rights">All rights reserved. Vila Tila © 2026.</span>
+<button class="footer-privacy-btn" id="footer-privacy-btn" type="button" data-i18n="cookies.policyBtn">Privacy Policy</button>
 <div class="wcag-badge">
 <i aria-hidden="true" class="fa-solid fa-universal-access"></i>
 <span data-i18n="footer.accessibility">WCAG 2.2 AA/AAA Compliant • Optimized for Screen Readers</span>
@@ -1192,6 +1199,52 @@
 <button aria-label="Back to top" class="back-to-top-btn" data-i18n-aria="footer.backToTopAria" hidden="" id="back-to-top-btn" type="button">
 <i aria-hidden="true" class="fa-solid fa-chevron-up"></i>
 </button>
+<!-- Cookie & GDPR Consent Banner -->
+<aside aria-label="Cookie and Privacy Consent" class="cookie-banner" hidden="" id="cookie-banner" role="region">
+<div class="container cookie-container">
+<div class="cookie-content">
+<h3 class="cookie-title" data-i18n="cookies.title">Privacy &amp; Cookies</h3>
+<p class="cookie-text" data-i18n="cookies.text">We only use essential functional storage (such as language preference) to deliver a seamless experience. We do not use third-party tracking or advertising cookies.</p>
+</div>
+<div class="cookie-actions">
+<button class="btn-secondary cookie-btn" id="cookie-policy-btn" type="button" data-i18n="cookies.policyBtn">Privacy Policy</button>
+<button class="btn-primary cookie-btn" id="cookie-accept-btn" type="button" data-i18n="cookies.acceptBtn">Accept</button>
+</div>
+</div>
+</aside>
+<!-- GDPR Privacy Policy Modal -->
+<div aria-hidden="true" aria-labelledby="privacy-modal-title" aria-modal="true" class="privacy-modal" hidden="" id="privacy-modal" role="dialog">
+<div class="privacy-modal-overlay" id="privacy-modal-overlay"></div>
+<div class="privacy-modal-card">
+<div class="privacy-modal-header">
+<h2 class="privacy-modal-title" id="privacy-modal-title" data-i18n="privacy.modalTitle">Privacy Policy &amp; GDPR Statement</h2>
+<button aria-label="Close Privacy Policy" class="privacy-modal-close-btn" id="privacy-modal-close-btn" type="button">
+<i aria-hidden="true" class="fa-solid fa-xmark"></i>
+</button>
+</div>
+<div class="privacy-modal-body">
+<div class="privacy-section">
+<h3 data-i18n="privacy.controllerTitle">1. Data Controller</h3>
+<p data-i18n="privacy.controllerText">Vila Tila (Novasol CCL380), Prozor, Otočac, Lika-Senj County, Croatia. For privacy inquiries, contact us via the official inquiry form.</p>
+</div>
+<div class="privacy-section">
+<h3 data-i18n="privacy.purposeTitle">2. Purpose of Data Processing</h3>
+<p data-i18n="privacy.purposeText">Personal information provided in the inquiry form (name, email, phone number) is processed solely for answering your booking inquiries and organizing your stay.</p>
+</div>
+<div class="privacy-section">
+<h3 data-i18n="privacy.legalTitle">3. Legal Basis &amp; Retention</h3>
+<p data-i18n="privacy.legalText">Data is processed under GDPR Article 6(1)(b) (pre-contractual steps) and retained only for the duration necessary to manage your booking request.</p>
+</div>
+<div class="privacy-section">
+<h3 data-i18n="privacy.rightsTitle">4. Your Rights</h3>
+<p data-i18n="privacy.rightsText">You have the right to request access to, rectification of, or erasure of your personal data at any time. You also have the right to lodge a complaint with the Croatian Personal Data Protection Agency (AZOP).</p>
+</div>
+</div>
+<div class="privacy-modal-footer">
+<button class="btn-primary" id="privacy-modal-dismiss-btn" type="button" data-i18n="privacy.closeBtn">Close Privacy Policy</button>
+</div>
+</div>
+</div>
 <!-- Separate JavaScript File -->
 <script src="js/main.js?v=2.0"></script>
 </body>
