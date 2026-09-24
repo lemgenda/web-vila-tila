@@ -1996,6 +1996,18 @@ textarea.form-control {
     gap: 2.5rem;
   }
 
+  .highlights-grid,
+  .spaces-grid,
+  .surroundings-grid,
+  .rules-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -2073,6 +2085,16 @@ textarea.form-control {
 
   .hero-stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .highlights-grid,
+  .wellness-grid,
+  .spaces-grid,
+  .gallery-grid,
+  .surroundings-grid,
+  .rules-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 
   .about-specs-list {
@@ -2169,8 +2191,16 @@ textarea.form-control {
   transform: translateY(-4px);
 }
 
-/* Responsive EU Calendar on Mobile */
+/* Responsive EU Calendar and Micro Layout on Mobile */
 @media (max-width: 480px) {
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.65rem, 6vw, 2.25rem);
+  }
+
   .eu-calendar-popover {
     width: 290px;
     padding: 0.75rem;

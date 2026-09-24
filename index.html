@@ -992,7 +992,7 @@
 <div class="form-group date-picker-group">
 <label class="form-label" data-i18n="inquiry.checkIn" for="widget-checkin">Check-in Date (DD/MM/YYYY)</label>
 <div class="date-input-wrap">
-<input autocomplete="off" class="form-control date-eu-input" id="widget-checkin" inputmode="numeric" maxlength="10" name="checkin" pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(20\d\d)$" placeholder="dd/mm/yyyy" required="" type="text" aria-describedby="checkin-hint"/>
+<input autocomplete="off" class="form-control date-eu-input" id="widget-checkin" inputmode="numeric" maxlength="10" name="checkin" pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(20\d\d)$" placeholder="dd/mm/yyyy" data-i18n-placeholder="inquiry.checkInPlaceholder" required="" type="text" aria-describedby="checkin-hint"/>
 <button aria-label="Open check-in calendar" class="date-picker-toggle-btn" data-date-target="widget-checkin" id="btn-calendar-checkin" type="button">
 <i aria-hidden="true" class="fa-solid fa-calendar-days"></i>
 </button>
@@ -1002,7 +1002,7 @@
 <div class="form-group date-picker-group">
 <label class="form-label" data-i18n="inquiry.checkOut" for="widget-checkout">Check-out Date (DD/MM/YYYY)</label>
 <div class="date-input-wrap">
-<input autocomplete="off" class="form-control date-eu-input" id="widget-checkout" inputmode="numeric" maxlength="10" name="checkout" pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(20\d\d)$" placeholder="dd/mm/yyyy" required="" type="text" aria-describedby="checkout-hint"/>
+<input autocomplete="off" class="form-control date-eu-input" id="widget-checkout" inputmode="numeric" maxlength="10" name="checkout" pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(20\d\d)$" placeholder="dd/mm/yyyy" data-i18n-placeholder="inquiry.checkOutPlaceholder" required="" type="text" aria-describedby="checkout-hint"/>
 <button aria-label="Open check-out calendar" class="date-picker-toggle-btn" data-date-target="widget-checkout" id="btn-calendar-checkout" type="button">
 <i aria-hidden="true" class="fa-solid fa-calendar-days"></i>
 </button>
@@ -1188,6 +1188,10 @@
 </aside>
 <!-- Interactive Toast Notification -->
 <div aria-live="polite" class="toast-msg" data-i18n="location.copiedToast" id="copy-toast" role="status">Coordinates copied!</div>
+<!-- Back to Top Floating Button -->
+<button aria-label="Back to top" class="back-to-top-btn" data-i18n-aria="footer.backToTopAria" hidden="" id="back-to-top-btn" type="button">
+<i aria-hidden="true" class="fa-solid fa-chevron-up"></i>
+</button>
 <!-- Separate JavaScript File -->
 <script src="js/main.js?v=2.0"></script>
 </body>

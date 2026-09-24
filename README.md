@@ -21,6 +21,7 @@ Official website for **Vila Tila** (`CCL380`), an exclusive 5-star private holid
 ## GitHub Pages Deployment
 
 The repository is pre-configured with `.nojekyll` for immediate hosting on GitHub Pages:
+
 1. Go to repository **Settings** > **Pages**.
 2. Select **Branch:** `main`, **Folder:** `/ (root)`.
 3. Save and access the live site.

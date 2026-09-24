@@ -1317,6 +1317,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initLanguage() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const langParam = urlParams.get('lang');
+  if (langParam === 'hr' || langParam === 'en') {
+    currentLanguage = langParam;
+  }
   const langToggleBtn = document.getElementById('lang-toggle-btn');
   if (langToggleBtn) {
     langToggleBtn.addEventListener('click', () => {
