@@ -1,6 +1,6 @@
-# Vila Tila — Luxury 5-Star Holiday Villa Website
+# Vila Tilia — Luxury 5-Star Holiday Villa Website
 
-Official website for **Vila Tila** (`CCL380`), an exclusive 5-star private holiday villa situated in Prozor near Otočac, Lika, Croatia, right by the crystal-clear river Gacka.
+Official website for **Vila Tilia** (`CCL380`), an exclusive 5-star private holiday villa situated in Prozor near Otočac, Lika, Croatia, right by the crystal-clear river Gacka.
 
 ## Features
 

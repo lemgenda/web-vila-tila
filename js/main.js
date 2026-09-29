@@ -1,5 +1,5 @@
 /**
- * Vila Tila - Luxury Tourist Rental Website
+ * Vila Tilia - Luxury Tourist Rental Website
  * Fully bilingual (EN / HR), SEO optimized, WCAG 2.2 compliant
  */
 
@@ -15,10 +15,10 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Indoor Heated Pool with Marble Wall",
     "title_hr": "Unutarnji grijani bazen s mramornim zidom",
-    "alt_en": "Vila Tila heated indoor swimming pool with turquoise water, stone coping, marble accent wall, and ceiling sky light panel.",
+    "alt_en": "Vila Tilia heated indoor swimming pool with turquoise water, stone coping, marble accent wall, and ceiling sky light panel.",
     "alt_hr": "Grijani unutarnji bazen u Vili Tili s tirkiznom vodom, kamenim rubom, mramornim zidom i krovnim svjetlosnim panelom.",
-    "sr_desc_en": "Photograph showing the private heated indoor pool of Vila Tila. The turquoise pool water is bordered by rough-cut stone tiles. On the right, light marble wall finishes reflect the illuminated sky ceiling above. Glass sliding doors on the left open out to the garden courtyard.",
-    "sr_desc_hr": "Fotografija privatnog grijanog unutarnjeg bazena Vile Tila. Tirkizna voda bazena obrubljena je kamenim pločama. S desne strane nalazi se elegantni mramorni zid koji reflektira osvijetljeni stropni panel, a s lijeve strane staklene stijene vode prema dvorištu."
+    "sr_desc_en": "Photograph showing the private heated indoor pool of Vila Tilia. The turquoise pool water is bordered by rough-cut stone tiles. On the right, light marble wall finishes reflect the illuminated sky ceiling above. Glass sliding doors on the left open out to the garden courtyard.",
+    "sr_desc_hr": "Fotografija privatnog grijanog unutarnjeg bazena Vile Tilia. Tirkizna voda bazena obrubljena je kamenim pločama. S desne strane nalazi se elegantni mramorni zid koji reflektira osvijetljeni stropni panel, a s lijeve strane staklene stijene vode prema dvorištu."
   },
   {
     "old_name": "IMG-20260916-WA0001-2048.webp",
@@ -31,7 +31,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Modern Bathroom with Round LED Mirror",
     "title_hr": "Moderna kupaonica s okruglim LED ogledalom",
-    "alt_en": "Modern ensuite bathroom at Vila Tila with round illuminated LED mirror, vessel sink on fluted white vanity, and gray stone tiles.",
+    "alt_en": "Modern ensuite bathroom at Vila Tilia with round illuminated LED mirror, vessel sink on fluted white vanity, and gray stone tiles.",
     "alt_hr": "Moderna kupaonica u Vili Tili s okruglim osvijetljenim LED ogledalom, nadgradnim umivaonikom i sivom keramikom.",
     "sr_desc_en": "A close view of a designer bathroom featuring large-format neutral gray ceramic tiles, a contemporary round vanity with fluted vertical texture, a cylindrical vessel sink with chrome tapware, a backlit circular LED mirror, and a wall-hung toilet.",
     "sr_desc_hr": "Prikaz dizajnerske kupaonice s neutralnim sivim pločicama, modernim ormarićem za umivaonik s vertikalnim rebrima, okruglim nadgradnim umivaonikom s kromiranom slavinom, kružnim LED ogledalom i zidnim WC-om."
@@ -48,10 +48,10 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Covered Summer Kitchen & Dining Terrace at Night",
     "title_hr": "Natkrivena ljetna kuhinja i terasa za blagovanje noću",
-    "alt_en": "Illuminated covered outdoor terrace and summer kitchen with dining table, ceiling fan, and electric BBQ at Vila Tila at night.",
+    "alt_en": "Illuminated covered outdoor terrace and summer kitchen with dining table, ceiling fan, and electric BBQ at Vila Tilia at night.",
     "alt_hr": "Osvijetljena natkrivena terasa i ljetna kuhinja s blagovaonskim stolom, stropnim ventilatorom i roštiljem u Vili Tili noću.",
     "sr_desc_en": "The outdoor terrace pergola at night, warmly illuminated by integrated linear LED strips along the wooden ceiling beams. Under the pergola is a dining table with padded armchairs, an outdoor summer kitchen countertop with sink and electric grill, and comfortable lounge seating.",
-    "sr_desc_hr": "Vanjska natkrivena terasa noću, toplo osvijetljena ugrađenom LED trakom duž drvenih stropnih greda. Pod pergolom se nalazi stol za blagovanje s udobnim stolicama, ljetna kuhinja sa sudoperom i roštiljem te prostor za opuštanje."
+    "sr_desc_hr": "Vanjska natkrivena terasa noću, toplo osvijetljena ugrađenom LED trakom duž drvenih stropnih greda. Pod natkrivenom sjenicom se nalazi stol za blagovanje s udobnim stolicama, ljetna kuhinja sa sudoperom i roštiljem te prostor za opuštanje."
   },
   {
     "old_name": "IMG-20260916-WA0003-2048.webp",
@@ -64,8 +64,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Indoor Heated Pool with Finnish Sauna",
     "title_hr": "Unutarnji bazen s finskom saunom",
-    "alt_en": "Direct view of Vila Tila indoor heated swimming pool and private Finnish sauna cabin surrounded by stone paving.",
-    "alt_hr": "Izravan pogled na unutarnji grijani bazen Vile Tila i privatnu finsku saunu okruženu kamenim pločama.",
+    "alt_en": "Direct view of Vila Tilia indoor heated swimming pool and private Finnish sauna cabin surrounded by stone paving.",
+    "alt_hr": "Izravan pogled na unutarnji grijani bazen Vile Tilia i privatnu finsku saunu okruženu kamenim pločama.",
     "sr_desc_en": "Centered perspective looking into the glass-enclosed wellness pavilion. The 21-square-meter heated pool features crystalline blue water and internal stairs. At the far corner stands a glass-fronted Finnish wooden sauna cabin, flanked by tropical planters and ambient lighting.",
     "sr_desc_hr": "Pogled kroz stakleni ulaz wellness paviljona. Grijani bazen površine 21 m² s kristalno čistom vodom i ugrađenim stepenicama. U stražnjem kutu nalazi se finska drvena sauna sa staklenom stijenom, ukrasno bilje i ambijentalna rasvjeta."
   },
@@ -80,7 +80,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Guest Powder Room & Toilet",
     "title_hr": "Gostinjski toalet",
-    "alt_en": "Vila Tila elegant guest toilet room with compact washbasin vanity, modern toilet, and backlit LED mirror.",
+    "alt_en": "Vila Tilia elegant guest toilet room with compact washbasin vanity, modern toilet, and backlit LED mirror.",
     "alt_hr": "Elegantan gostinjski toalet u Vili Tili s kompaktnim umivaonikom, modernom školjkom i LED ogledalom.",
     "sr_desc_en": "View of the stylish guest powder room finished in light gray stone tiles with terrazzo accent wall, featuring a modern wall-mounted vanity unit with small basin, chrome mixer tap, round mirror with touch-switch LED illumination, and soft hand towel.",
     "sr_desc_hr": "Pogled na gostinjski toalet uređen svijetlosivom keramikom s detaljima u stilu terrazza, modernim visećim ormarićem s manjim umivaonikom, kromiranom miješalicom i okruglim LED ogledalom na dodir."
@@ -96,7 +96,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Ensuite Bathroom with Walk-in Rain Shower",
     "title_hr": "Kupaonica s walk-in tušem s efektom kiše",
-    "alt_en": "Spacious ensuite bathroom with walk-in glass rain shower, fluted vanity, and modern laundry washer at Vila Tila.",
+    "alt_en": "Spacious ensuite bathroom with walk-in glass rain shower, fluted vanity, and modern laundry washer at Vila Tilia.",
     "alt_hr": "Prostrana kupaonica sa staklenim walk-in tušem, modernim ormarićem i perilicom rublja u Vili Tili.",
     "sr_desc_en": "Detailed view of the primary bathroom featuring a large walk-in shower enclosed with transparent tempered glass and overhead chrome rain shower head. Beside it is a fluted cylindrical vanity unit with round basin, backlit mirror, recessed niche for toiletries, and integrated washing machine.",
     "sr_desc_hr": "Detaljan pogled na glavnu kupaonicu s velikom walk-in tuš kabinom od prozirnog stakla s velikom ružom tuša. Uz tuš se nalazi valjkasti rebrasti ormarić s okruglim umivaonikom, osvijetljeno ogledalo, ugradbena niša za kozmetiku i perilica rublja."
@@ -130,10 +130,10 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Illuminated Stone Patio & Pool House at Night",
     "title_hr": "Osvijetljeno kameno dvorište i bazen noću",
-    "alt_en": "Wide night perspective of Vila Tila illuminated stone patio with sun loungers, glass-enclosed pool house, and A-frame villa.",
-    "alt_hr": "Noćna perspektiva kamenog dvorišta Vile Tila s ležaljkama za sunčanje, staklenim paviljonom bazena i planinskom vilom.",
-    "sr_desc_en": "Night photograph of Vila Tila's paved courtyard illuminated by warm in-ground and façade lights. In the foreground, four modern black sun loungers with side tables are arranged neatly. The glowing pool pavilion and timber A-frame chalet create an enchanting luxury ambiance.",
-    "sr_desc_hr": "Noćna fotografija popločanog dvorišta Vile Tila s ugodnom rasvjetom. U prvom planu nalaze se četiri crne ležaljke s pomoćnim stolićima, a u pozadini svijetli stakleni paviljon s bazenom te drvena vila toplih tonova."
+    "alt_en": "Wide night perspective of Vila Tilia illuminated stone patio with sun loungers, glass-enclosed pool house, and A-frame villa.",
+    "alt_hr": "Noćna perspektiva kamenog dvorišta Vile Tilia s ležaljkama za sunčanje, staklenim paviljonom bazena i planinskom vilom.",
+    "sr_desc_en": "Night photograph of Vila Tilia's paved courtyard illuminated by warm in-ground and façade lights. In the foreground, four modern black sun loungers with side tables are arranged neatly. The glowing pool pavilion and timber A-frame chalet create an enchanting luxury ambiance.",
+    "sr_desc_hr": "Noćna fotografija popločanog dvorišta Vile Tilia s ugodnom rasvjetom. U prvom planu nalaze se četiri crne ležaljke s pomoćnim stolićima, a u pozadini svijetli stakleni paviljon s bazenom te drvena vila toplih tonova."
   },
   {
     "old_name": "IMG-20260916-WA0009-2048.webp",
@@ -146,11 +146,11 @@ const GALLERY_IMAGES = [
       "night"
     ],
     "title_en": "Outdoor Dining Pergola & Paved Courtyard",
-    "title_hr": "Vanjska pergola za blagovanje i dvorište",
-    "alt_en": "Covered dining pergola with warm LED strip lighting, dining table, and stone terrace of Vila Tila at night.",
-    "alt_hr": "Natkrivena pergola za blagovanje s toplom LED rasvjetom, blagovaonskim stolom i kamenom terasom Vile Tila noću.",
+    "title_hr": "Vanjska sjenica za blagovanje i dvorište",
+    "alt_en": "Covered dining pergola with warm LED strip lighting, dining table, and stone terrace of Vila Tilia at night.",
+    "alt_hr": "Natkrivena sjenica za blagovanje s toplom LED rasvjetom, blagovaonskim stolom i kamenom terasom Vile Tilia noću.",
     "sr_desc_en": "A night view across the spacious interlocking stone paver courtyard toward the modern covered pergola. The pergola features sturdy timber posts, dark contemporary cladding, an integrated linear LED light bar, and outdoor dining furnishings.",
-    "sr_desc_hr": "Noćni pogled preko prostranog popločanog dvorišta prema modernoj natkrivenoj pergoli s drvenim stupovima, antracit oblogom, LED rasvjetom i stolom za večere na otvorenom."
+    "sr_desc_hr": "Noćni pogled preko prostranog popločanog dvorišta prema modernoj natkrivenoj sjenici s drvenim stupovima, antracit oblogom, LED rasvjetom i stolom za večere na otvorenom."
   },
   {
     "old_name": "IMG-20260916-WA0010-2048.webp",
@@ -164,8 +164,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Loft Gallery Overlook & Timber Architecture",
     "title_hr": "Galerija na katu i drvena arhitektura",
-    "alt_en": "Upper loft gallery in Vila Tila with geometric black metal railing, exposed timber beams, and architectural triangular gable windows.",
-    "alt_hr": "Galerija na katu Vile Tila s geometrijskom crnom ogradom, vidljivim drvenim gredama i trokutastim krovnim prozorima.",
+    "alt_en": "Upper loft gallery in Vila Tilia with geometric black metal railing, exposed timber beams, and architectural triangular gable windows.",
+    "alt_hr": "Galerija na katu Vile Tilia s geometrijskom crnom ogradom, vidljivim drvenim gredama i trokutastim krovnim prozorima.",
     "sr_desc_en": "Photograph from the second-floor loft gallery looking toward the high wooden cathedral ceiling and triangular architectural gable windows. The loft is protected by custom black metal geometric balustrades with views over the living room below.",
     "sr_desc_hr": "Fotografija s galerije na katu koja prikazuje visoki drveni krov s masivnim gredama, trokutaste prozore na zabatu i ogradu od crnog čelika s pogledom na donji dnevni boravak."
   },
@@ -181,8 +181,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Upper Floor Bedroom with King Bed",
     "title_hr": "Gornja spavaća soba s bračnim krevetom",
-    "alt_en": "Cozy upper floor bedroom at Vila Tila under pitched wood ceiling with plush king-size bed, halo light, and private balcony door.",
-    "alt_hr": "Ugodna spavaća soba na katu Vile Tila pod kosim drvenim stropom s bračnim krevetom, dizajnerskim lusterom i balkonskim vratima.",
+    "alt_en": "Cozy upper floor bedroom at Vila Tilia under pitched wood ceiling with plush king-size bed, halo light, and private balcony door.",
+    "alt_hr": "Ugodna spavaća soba na katu Vile Tilia pod kosim drvenim stropom s bračnim krevetom, dizajnerskim lusterom i balkonskim vratima.",
     "sr_desc_en": "Spacious upper floor bedroom lined completely with natural spruce timber planks and structural rafters. The centerpiece is a comfortable king-size bed made up with crisp white linens and embroidered accent pillows, complemented by a suspended circular LED ring chandelier.",
     "sr_desc_hr": "Prostrana spavaća soba na katu u potpunosti obložena prirodnim smrekovim drvetom s krovnim gredama. U središtu je bračni krevet s bijelom posteljinom i ukrasnim jastucima, uz moderan prstenasti viseći luster."
   },
@@ -214,10 +214,10 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Aerial Drone Night View of the Entire Estate",
     "title_hr": "Zračni noćni pogled dronom na cijelo imanje",
-    "alt_en": "Drone aerial photograph of Vila Tila at night showing illuminated pool house, chalet, private parking, and fenced garden.",
-    "alt_hr": "Zračna noćna fotografija Vile Tila koja prikazuje osvijetljeni bazen, vilu, privatni parking i ograđeno dvorište.",
-    "sr_desc_en": "High-angle nighttime drone view capturing the entire private estate of Vila Tila. The dramatic A-frame rooflines, turquoise lighted indoor pool pavilion, illuminated stone patio with loungers, outdoor dining pergola, and fully fenced secure parking courtyard are clearly visible against the dark night.",
-    "sr_desc_hr": "Zračni noćni snimak cijelog imanja Vile Tila. Vidljive su linije krova, tirkizno osvijetljeni zatvoreni bazen, osvijetljena terasa s ležaljkama, pergola za blagovanje i ograđeni privatni parking."
+    "alt_en": "Drone aerial photograph of Vila Tilia at night showing illuminated pool house, chalet, private parking, and fenced garden.",
+    "alt_hr": "Zračna noćna fotografija Vile Tilia koja prikazuje osvijetljeni bazen, vilu, privatni parking i ograđeno dvorište.",
+    "sr_desc_en": "High-angle nighttime drone view capturing the entire private estate of Vila Tilia. The dramatic A-frame rooflines, turquoise lighted indoor pool pavilion, illuminated stone patio with loungers, outdoor dining pergola, and fully fenced secure parking courtyard are clearly visible against the dark night.",
+    "sr_desc_hr": "Zračni noćni snimak cijelog imanja Vile Tilia. Vidljive su linije krova, tirkizno osvijetljeni zatvoreni bazen, osvijetljena terasa s ležaljkama, natkrivena sjenica za blagovanje i ograđeni privatni parking."
   },
   {
     "old_name": "IMG-20260916-WA0014-2048.webp",
@@ -231,10 +231,10 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Aerial Daylight View of Villa & Pool Enclosure",
     "title_hr": "Dnevni pogled dronom na vilu i bazenski paviljon",
-    "alt_en": "Aerial daylight drone view of Vila Tila modern A-frame chalet, indoor pool pavilion, sun terrace, and green countryside.",
-    "alt_hr": "Zračni dnevni pogled na planinsku vilu Vila Tila, bazenski paviljon, sunčanu terasu i okolnu prirodu.",
-    "sr_desc_en": "Elevated daytime aerial photograph showcasing Vila Tila's contemporary Alpine architecture. The main timber residence features steep dark-tiled roofs, adjoining a sleek glass-walled pool pavilion, an extensive paved sun deck with loungers and outdoor shower, and a covered summer gazebo.",
-    "sr_desc_hr": "Zračna fotografija Vile Tila po danu koja ističe modernu alpsku arhitekturu: drvenu kuću sa strmim crnim krovom, stakleni paviljon s bazenom, veliku terasu s ležaljkama i vanjskim tušem te sjenicu."
+    "alt_en": "Aerial daylight drone view of Vila Tilia modern A-frame chalet, indoor pool pavilion, sun terrace, and green countryside.",
+    "alt_hr": "Zračni dnevni pogled na planinsku vilu Vila Tilia, bazenski paviljon, sunčanu terasu i okolnu prirodu.",
+    "sr_desc_en": "Elevated daytime aerial photograph showcasing Vila Tilia's contemporary Alpine architecture. The main timber residence features steep dark-tiled roofs, adjoining a sleek glass-walled pool pavilion, an extensive paved sun deck with loungers and outdoor shower, and a covered summer gazebo.",
+    "sr_desc_hr": "Zračna fotografija Vile Tilia po danu koja ističe modernu alpsku arhitekturu: drvenu kuću sa strmim crnim krovom, stakleni paviljon s bazenom, veliku terasu s ležaljkama i vanjskim tušem te sjenicu."
   },
   {
     "old_name": "IMG-20260916-WA0015-2048.webp",
@@ -248,7 +248,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Open Concept Living, Dining & Gourmet Kitchen",
     "title_hr": "Dnevni boravak, blagovaonica i moderna kuhinja",
-    "alt_en": "Open concept interior of Vila Tila with flat screen Smart TV, designer dining set, open staircase, and fully equipped kitchen.",
+    "alt_en": "Open concept interior of Vila Tilia with flat screen Smart TV, designer dining set, open staircase, and fully equipped kitchen.",
     "alt_hr": "Povezani prostor dnevnog boravka, blagovaonice i potpuno opremljene kuhinje u Vili Tili.",
     "sr_desc_en": "A wide interior photograph illustrating the open-plan ground floor layout. In the center is a round dark dining table with comfortable rust and ochre velvet chairs under an oval ring pendant. To the left is an open steel staircase and TV media wall; to the right, a modern kitchen with high-end appliances.",
     "sr_desc_hr": "Široki pogled na prizemlje otvorenog koncepta. U sredini je okrugli blagovaonski stol s baršunastim stolicama u boji terakote i senfa pod modernim lusterom. S lijeve strane su čelične stube i TV, a s desne kuhinja."
@@ -264,8 +264,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Ground Floor Master Bedroom with TV & Desk",
     "title_hr": "Glavna spavaća soba u prizemlju s TV-om i stolom",
-    "alt_en": "Ground floor master bedroom at Vila Tila with king bed, timber wall paneling, wall-mounted Smart TV, and dressing desk.",
-    "alt_hr": "Glavna spavaća soba u prizemlju Vile Tila s bračnim krevetom, drvenim zidovima, Smart TV-om i toaletnim stolićem.",
+    "alt_en": "Ground floor master bedroom at Vila Tilia with king bed, timber wall paneling, wall-mounted Smart TV, and dressing desk.",
+    "alt_hr": "Glavna spavaća soba u prizemlju Vile Tilia s bračnim krevetom, drvenim zidovima, Smart TV-om i toaletnim stolićem.",
     "sr_desc_en": "Comfortable ground floor master bedroom featuring warm natural wood walls, a king-size bed with soft neutral linens, wall-mounted flat-screen TV, climate control air conditioning, vanity desk with chair, and large window with sheer drapery.",
     "sr_desc_hr": "Udobna glavna spavaća soba u prizemlju s drvenim zidnim oblogama, velikim bračnim krevetom, zidnim TV-om, klima uređajem, toaletnim stolićem i prozorom sa zavjesama."
   },
@@ -281,9 +281,9 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Cathedral Ceiling Living Room with Plush Sofa",
     "title_hr": "Dnevni boravak s visokim stropom i udobnim kaučem",
-    "alt_en": "Vila Tila high-ceiling living room with gray designer sofa, coffee table, floor-to-ceiling gable glazing, and patio access.",
-    "alt_hr": "Dnevni boravak Vile Tila s visokim stropom, dizajnerskim kaučem, stolićem za kavu i staklenim stijenama prema terasi.",
-    "sr_desc_en": "Interior shot showcasing the soaring cathedral ceiling and double-height timber gable of Vila Tila. A comfortable gray fabric sofa faces a round coffee table on a circular rug, with full-height patio doors opening directly onto the sunny outdoor terrace.",
+    "alt_en": "Vila Tilia high-ceiling living room with gray designer sofa, coffee table, floor-to-ceiling gable glazing, and patio access.",
+    "alt_hr": "Dnevni boravak Vile Tilia s visokim stropom, dizajnerskim kaučem, stolićem za kavu i staklenim stijenama prema terasi.",
+    "sr_desc_en": "Interior shot showcasing the soaring cathedral ceiling and double-height timber gable of Vila Tilia. A comfortable gray fabric sofa faces a round coffee table on a circular rug, with full-height patio doors opening directly onto the sunny outdoor terrace.",
     "sr_desc_hr": "Fotografija dnevnog boravka koja ističe visoke stropove i drvenu konstrukciju zabata. Udoban sivi trosjed smješten je uz okrugli stolić, a velika staklena balkonska vrata vode izravno na terasu."
   },
   {
@@ -297,7 +297,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Upper Bedroom with Ensuite Doorway & AC",
     "title_hr": "Gornja spavaća soba s prolazom u kupaonicu i klimom",
-    "alt_en": "Bright bedroom at Vila Tila with king bed, wall TV, independent air conditioning, and entrance to private bathroom.",
+    "alt_en": "Bright bedroom at Vila Tilia with king bed, wall TV, independent air conditioning, and entrance to private bathroom.",
     "alt_hr": "Svijetla spavaća soba u Vili Tili s bračnim krevetom, TV-om, vlastitim klima uređajem i ulazom u kupaonicu.",
     "sr_desc_en": "View of the upper bedroom showing the foot of the king-size bed, a smooth light gray accent wall with flat-screen television, climate control unit, and the doorway leading into the private en-suite bathroom.",
     "sr_desc_hr": "Prikaz spavaće sobe na katu s pogledom na podnožje bračnog kreveta, zid s televizorom, klima uređaj i ulaz u privatnu kupaonicu."
@@ -330,8 +330,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Mezzanine Loft Lounge with Terracotta Sofa",
     "title_hr": "Lounge kutak na galeriji s terakota kaučem",
-    "alt_en": "Second floor mezzanine loft at Vila Tila with comfortable terracotta sofa, coffee table, and architectural triangular windows.",
-    "alt_hr": "Galerija na katu Vile Tila s udobnim kaučem u boji terakote, stolićem i trokutastim prozorima.",
+    "alt_en": "Second floor mezzanine loft at Vila Tilia with comfortable terracotta sofa, coffee table, and architectural triangular windows.",
+    "alt_hr": "Galerija na katu Vile Tilia s udobnim kaučem u boji terakote, stolićem i trokutastim prozorima.",
     "sr_desc_en": "Upper mezzanine level arranged as a peaceful reading retreat, complete with a velvet terracotta two-seater couch, fluted white coffee table on a circular plush rug, unique drop pendant lights, and light wood rafters framed by triangular gable windows.",
     "sr_desc_hr": "Gornja galerija uređena kao kutak za opuštanje i čitanje, s baršunastim dvosjedom u boji terakote, okruglim stolićem na tepihu, modernim visilicama i drvenim krovnim konstrukcijama."
   },
@@ -346,9 +346,9 @@ const GALLERY_IMAGES = [
       "night"
     ],
     "title_en": "Summer Kitchen & Dining Pergola at Night",
-    "title_hr": "Ljetna kuhinja i blagovaonica pod pergolom noću",
-    "alt_en": "Vila Tila outdoor summer kitchen with electric BBQ grill, prep sink, dining table, and illuminated terrace at night.",
-    "alt_hr": "Vanjska ljetna kuhinja s električnim roštiljem, radnom plohom, sudoperom i stolom na osvijetljenoj terasi Vile Tila noću.",
+    "title_hr": "Ljetna kuhinja i blagovaonica pod sjenicom noću",
+    "alt_en": "Vila Tilia outdoor summer kitchen with electric BBQ grill, prep sink, dining table, and illuminated terrace at night.",
+    "alt_hr": "Vanjska ljetna kuhinja s električnim roštiljem, radnom plohom, sudoperom i stolom na osvijetljenoj terasi Vile Tilia noću.",
     "sr_desc_en": "Night view of the sheltered outdoor cooking and dining facility. Equipped with an electric barbecue grill, food preparation counter with running water, stainless steel sink, large dining suite, ceiling fan, and linear LED lighting.",
     "sr_desc_hr": "Noćni prikaz natkrivenog prostora za kuhanje i objedovanje na otvorenom. Opremljen je električnim roštiljem, radnom pločom sa sudoperom, velikim stolom za jelo, stropnim ventilatorom i ugodnom LED rasvjetom."
   },
@@ -380,7 +380,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Indoor Heated Pool with Sky Ceiling Reflection",
     "title_hr": "Unutarnji grijani bazen s odsjajem stropa",
-    "alt_en": "Crystal clear heated swimming pool with blue water reflecting illuminated sky ceiling art inside Vila Tila.",
+    "alt_en": "Crystal clear heated swimming pool with blue water reflecting illuminated sky ceiling art inside Vila Tilia.",
     "alt_hr": "Kristalno čista voda grijanog bazena s odsjajem osvijetljenog stropnog panela u Vili Tili.",
     "sr_desc_en": "Close view looking along the length of the 21 m² heated indoor pool. The tranquil azure water reflects the illuminated celestial forest scene printed on the ceiling light box. Shallow entrance steps allow easy, relaxing access.",
     "sr_desc_hr": "Bliži pogled duž 21 m² velikog grijanog bazena. Mirna plava voda reflektira osvijetljeni motiv šumskog neba na stropnom panelu. Plitke stepenice omogućuju lagan ulazak u vodu."
@@ -397,8 +397,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Night Terrace with Sunbeds & Illuminated Chalet",
     "title_hr": "Noćna terasa s ležaljkama i osvijetljenom vilom",
-    "alt_en": "Night view of Vila Tila paved terrace with modern sunbeds, illuminated glass pool pavilion, and A-frame wooden chalet.",
-    "alt_hr": "Noćni pogled na popločanu terasu Vile Tila s ležaljkama, osvijetljenim bazenom i drvenom planinskom vilom.",
+    "alt_en": "Night view of Vila Tilia paved terrace with modern sunbeds, illuminated glass pool pavilion, and A-frame wooden chalet.",
+    "alt_hr": "Noćni pogled na popločanu terasu Vile Tilia s ležaljkama, osvijetljenim bazenom i drvenom planinskom vilom.",
     "sr_desc_en": "Atmospheric nighttime shot showing the comfortable sun loungers lined up on the paved patio in front of the illuminated indoor pool pavilion and the double A-frame timber chalet standing against the starlit sky.",
     "sr_desc_hr": "Ugođajna noćna fotografija ležaljki za sunčanje na kamenoj terasi ispred osvijetljenog bazenskog paviljona i drvene vile pod noćnim nebom."
   },
@@ -413,8 +413,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Bedroom Makeup Vanity with Circular Gold Mirror",
     "title_hr": "Toaletni stolić sa zaobljenim zlatnim ogledalom",
-    "alt_en": "Modern white makeup vanity table with large round gold mirror and hallway access in Vila Tila bedroom.",
-    "alt_hr": "Moderni toaletni stolić za šminkanje s velikim okruglim zlatnim ogledalom u spavaćoj sobi Vile Tila.",
+    "alt_en": "Modern white makeup vanity table with large round gold mirror and hallway access in Vila Tilia bedroom.",
+    "alt_hr": "Moderni toaletni stolić za šminkanje s velikim okruglim zlatnim ogledalom u spavaćoj sobi Vile Tilia.",
     "sr_desc_en": "Close view of the bedroom's grooming vanity console, showing the sleek white finish, a prominent round gold-edged mirror reflecting the ceiling timber beams, remote control for entertainment, and the entrance to the ensuite bathroom.",
     "sr_desc_hr": "Bliži pogled na toaletni stolić u spavaćoj sobi, s elegantnom bijelom plohom, velikim zlatnim ogledalom koje reflektira drveni strop i prolazom prema kupaonici."
   },
@@ -445,7 +445,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Master Bedroom with Ensuite Bathroom View",
     "title_hr": "Glavna spavaća soba s pogledom na kupaonicu",
-    "alt_en": "Spacious bedroom at Vila Tila with king bed, wall lighting, timber ceiling, and open entrance to ensuite bathroom.",
+    "alt_en": "Spacious bedroom at Vila Tilia with king bed, wall lighting, timber ceiling, and open entrance to ensuite bathroom.",
     "alt_hr": "Prostrana spavaća soba u Vili Tili s bračnim krevetom, rasvjetom i otvorenim ulazom u kupaonicu.",
     "sr_desc_en": "Photograph displaying the harmonious connection between the bedroom and private en-suite bathroom. Warm light washes down the microcement accent wall, highlighting the king-size bed and showing the glass-walled shower inside the bathroom.",
     "sr_desc_hr": "Prikaz povezanosti spavaće sobe i kupaonice. Topla rasvjeta obasjava zid s dekorativnom tehnikom, ističući bračni krevet i pogled na stakleni tuš u kupaonici."
@@ -462,7 +462,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Pool Pavilion Sliding Glass Doors at Night",
     "title_hr": "Klizne staklene stijene bazena noću",
-    "alt_en": "Modern pool pavilion with wide sliding glass doors open to the stone patio at Vila Tila at night.",
+    "alt_en": "Modern pool pavilion with wide sliding glass doors open to the stone patio at Vila Tilia at night.",
     "alt_hr": "Moderni bazenski paviljon s otvorenim kliznim staklenim stijenama prema kamenoj terasi noću u Vili Tili.",
     "sr_desc_en": "Framed nighttime perspective looking straight into the pool pavilion through expansive retracted sliding glass doors. The interior pool glow contrasts beautifully with the evening patio pavers.",
     "sr_desc_hr": "Noćna fotografija bazenskog paviljona kroz široko otvorene klizne stijene. Unutarnja rasvjeta bazena stvara divan kontrast s popločanom vanjskom terasom."
@@ -477,12 +477,12 @@ const GALLERY_IMAGES = [
       "patio",
       "pool"
     ],
-    "title_en": "Vila Tila Sun Terrace & Pool Pavilion in Daylight",
-    "title_hr": "Sunčana terasa i bazenski paviljon Vile Tila danju",
-    "alt_en": "Daylight exterior view of Vila Tila showing the spacious paved terrace, indoor pool enclosure, A-frame chalet, and hanging egg chair.",
+    "title_en": "Vila Tilia Sun Terrace & Pool Pavilion in Daylight",
+    "title_hr": "Sunčana terasa i bazenski paviljon Vile Tilia danju",
+    "alt_en": "Daylight exterior view of Vila Tilia showing the spacious paved terrace, indoor pool enclosure, A-frame chalet, and hanging egg chair.",
     "alt_hr": "Dnevni vanjski pogled na Vilu Tilu s prostranom kamenom terasom, zatvorenim bazenom i visećom foteljom.",
     "sr_desc_en": "Sunny daytime exterior view displaying the full private outdoor area. The interlocking stone terrace stretches from the glass pool pavilion to the dining gazebo with woven hanging egg chair and the distinctive double A-frame timber villa under a bright sky with light clouds.",
-    "sr_desc_hr": "Sunčani dnevni pogled na vanjski prostor Vile Tila. Kamena terasa pruža se od staklenog paviljona s bazenom do sjenice s visećom foteljom i prepoznatljive drvene vile pod plavim nebom."
+    "sr_desc_hr": "Sunčani dnevni pogled na vanjski prostor Vile Tilia. Kamena terasa pruža se od staklenog paviljona s bazenom do sjenice s visećom foteljom i prepoznatljive drvene vile pod plavim nebom."
   },
   {
     "old_name": "IMG-20260916-WA0031-2048.webp",
@@ -497,8 +497,8 @@ const GALLERY_IMAGES = [
     "title_hr": "Dizajnerski blagovaonski stol i baršunaste stolice",
     "alt_en": "Dining area with round dining table, six terracotta and mustard velvet chairs, modern chandelier, and stairs to loft gallery.",
     "alt_hr": "Blagovaonica s okruglim stolom, šest baršunastih stolica u toplim tonovima, modernim lusterom i stubama za galeriju.",
-    "sr_desc_en": "A direct view of the dining setting inside Vila Tila, featuring a circular black table set with a decorative cotton vase, surrounded by six comfortable bucket chairs upholstered in warm terracotta and tan velvet, beneath a pill-shaped ring chandelier.",
-    "sr_desc_hr": "Izravan pogled na blagovaonski dio Vile Tila: okrugli crni stol s vazom s pamukom, okružen sa šest udobnih baršunastih fotelja u boji terakote i senfa, pod modernim eliptičnim lusterom."
+    "sr_desc_en": "A direct view of the dining setting inside Vila Tilia, featuring a circular black table set with a decorative cotton vase, surrounded by six comfortable bucket chairs upholstered in warm terracotta and tan velvet, beneath a pill-shaped ring chandelier.",
+    "sr_desc_hr": "Izravan pogled na blagovaonski dio Vile Tilia: okrugli crni stol s vazom s pamukom, okružen sa šest udobnih baršunastih fotelja u boji terakote i senfa, pod modernim eliptičnim lusterom."
   },
   {
     "old_name": "IMG-20260916-WA0032-2048.webp",
@@ -512,8 +512,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Living & Dining Room Overlooking Sun Terrace",
     "title_hr": "Dnevni i blagovaonski prostor s pogledom na terasu",
-    "alt_en": "Vila Tila open living and dining area with large glass patio doors offering direct view and access to the outdoor terrace.",
-    "alt_hr": "Dnevni boravak i blagovaonica Vile Tila s velikim staklenim vratima koja vode na sunčanu terasu.",
+    "alt_en": "Vila Tilia open living and dining area with large glass patio doors offering direct view and access to the outdoor terrace.",
+    "alt_hr": "Dnevni boravak i blagovaonica Vile Tilia s velikim staklenim vratima koja vode na sunčanu terasu.",
     "sr_desc_en": "Interior shot captured from beside the structural timber support column, revealing the open-plan dining table, sofa seating, and expansive sliding glass doors that frame the outdoor terrace and greenery beyond.",
     "sr_desc_hr": "Fotografija unutrašnjosti pokraj nosive drvene grede koja prikazuje blagovaonski stol, garnituru za sjedenje i velika staklena vrata s pogledom na terasu i prirodu."
   },
@@ -529,7 +529,7 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Architectural Staircase & Entertainment Console",
     "title_hr": "Arhitektonske stube i TV konzola",
-    "alt_en": "Custom black steel and natural wood staircase leading to loft, alongside Smart TV and media cabinet in Vila Tila.",
+    "alt_en": "Custom black steel and natural wood staircase leading to loft, alongside Smart TV and media cabinet in Vila Tilia.",
     "alt_hr": "Dizajnerske stube od crnog čelika i drva koje vode na galeriju, uz Smart TV i multimedijski ormarić.",
     "sr_desc_en": "A view highlighting the custom architectural open staircase with dark metal geometric stringers and light oak treads leading up to the loft. Below the staircase sits a low white media credenza with wide Smart TV and tasteful art decor.",
     "sr_desc_hr": "Prikaz dizajnerskih otvorenih stuba s crnom čeličnom konstrukcijom i hrastovim gazištima koje vode na galeriju. Ispod stuba nalazi se bijeli ormarić sa Smart TV-om i umjetničkim detaljima."
@@ -546,8 +546,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Panoramic View of Ground Floor Living & Kitchen",
     "title_hr": "Panoramski prikaz prizemlja, dnevnog dijela i kuhinje",
-    "alt_en": "Comprehensive view of Vila Tila open concept ground floor including dining area, modern kitchen, media wall, and loft rafters.",
-    "alt_hr": "Cjeloviti prikaz otvorenog prizemlja Vile Tila uključujući blagovaonicu, kuhinju, TV kutak i stropne grede.",
+    "alt_en": "Comprehensive view of Vila Tilia open concept ground floor including dining area, modern kitchen, media wall, and loft rafters.",
+    "alt_hr": "Cjeloviti prikaz otvorenog prizemlja Vile Tilia uključujući blagovaonicu, kuhinju, TV kutak i stropne grede.",
     "sr_desc_en": "Comprehensive perspective of the ground floor living environment, showcasing the smooth flow between the dining suite, fully equipped culinary kitchen with window, media entertainment setup, and timber-beamed ceiling.",
     "sr_desc_hr": "Sveobuhvatni pogled na prizemlje koji prikazuje skladan prijelaz između blagovaonice, potpuno opremljene moderne kuhinje s prozorom, multimedijskog prostora i drvenih greda."
   },
@@ -563,10 +563,10 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Front Gated Entrance & Villa Façade",
     "title_hr": "Glavni ulaz s ogradom i pročelje vile",
-    "alt_en": "Front entrance of Vila Tila featuring custom laser-cut designer metal security gate, stone pillars, 4-star tourism plaque, and private parking driveway.",
+    "alt_en": "Front entrance of Vila Tilia featuring custom laser-cut designer metal security gate, stone pillars, 4-star tourism plaque, and private parking driveway.",
     "alt_hr": "Prednji ulaz u Vilu Tilu s modernim metalnim vratima, kamenim stupovima, pločom s 4 zvjezdice i privatnim parkingom.",
-    "sr_desc_en": "Exterior street-level view of the property entrance. Features a handsome laser-cut geometric charcoal security gate set between textured pillars, carrying the official 'Vila Tila ****' categorization sign. Behind the gate is the paved three-car parking court and golden timber chalet.",
-    "sr_desc_hr": "Pogled s ulice na ulaz na posjed: moderna antracit metalna vrata s geometrijskim uzorkom između stupova na kojima se nalazi službena ploča 'Vila Tila ****'. U pozadini je popločano dvorište s parkingom za 3 auta i drvena vila."
+    "sr_desc_en": "Exterior street-level view of the property entrance. Features a handsome laser-cut geometric charcoal security gate set between textured pillars, carrying the official 'Vila Tilia ****' categorization sign. Behind the gate is the paved three-car parking court and golden timber chalet.",
+    "sr_desc_hr": "Pogled s ulice na ulaz na posjed: moderna antracit metalna vrata s geometrijskim uzorkom između stupova na kojima se nalazi službena ploča 'Vila Tilia ****'. U pozadini je popločano dvorište s parkingom za 3 auta i drvena vila."
   },
   {
     "old_name": "IMG-20260916-WA0036-2048.webp",
@@ -597,8 +597,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Outdoor Timber Bar Counter on Terrace at Night",
     "title_hr": "Vanjski drveni šank na terasi noću",
-    "alt_en": "Handcrafted wooden outdoor bar counter and high stool on the illuminated terrace of Vila Tila at night.",
-    "alt_hr": "Ručno izrađeni drveni vanjski šank i barska stolica na osvijetljenoj terasi Vile Tila noću.",
+    "alt_en": "Handcrafted wooden outdoor bar counter and high stool on the illuminated terrace of Vila Tilia at night.",
+    "alt_hr": "Ručno izrađeni drveni vanjski šank i barska stolica na osvijetljenoj terasi Vile Tilia noću.",
     "sr_desc_en": "A cozy perspective of the illuminated terrace at night featuring a custom solid wood outdoor bar counter and wicker bar stool positioned beneath the villa's overhanging eaves, with the pool pavilion visible across the paving.",
     "sr_desc_hr": "Ugodan noćni pogled na osvijetljenu terasu s unikatnim drvenim vanjskim šankom i visokom stolicom ispod strehe vile, s pogledom na bazen."
   },
@@ -614,8 +614,8 @@ const GALLERY_IMAGES = [
     ],
     "title_en": "Grand Chalet Living Room & Timber Mezzanine",
     "title_hr": "Prostrani dnevni boravak i drvena galerija",
-    "alt_en": "Vila Tila open chalet living hall showing exposed spruce rafters, dining table, kitchen, modern sofa, and mezzanine railing.",
-    "alt_hr": "Dnevni prostor Vile Tila s vidljivim drvenim gredama, blagovaonskim stolom, kuhinjom i ogradom galerije na katu.",
+    "alt_en": "Vila Tilia open chalet living hall showing exposed spruce rafters, dining table, kitchen, modern sofa, and mezzanine railing.",
+    "alt_hr": "Dnevni prostor Vile Tilia s vidljivim drvenim gredama, blagovaonskim stolom, kuhinjom i ogradom galerije na katu.",
     "sr_desc_en": "Wide architectural view of the chalet interior showing the two-story volume. Warm integrated lighting washes the spruce ceiling and mezzanine floor above, while the ground level integrates dining, kitchen, and lounge areas seamlessly.",
     "sr_desc_hr": "Široki arhitektonski pogled na unutrašnjost vile koji prikazuje dvostruku visinu prostora. Topla ugrađena rasvjeta naglašava drveni strop i galeriju, dok prizemlje povezuje blagovaonicu, kuhinju i boravak."
   },
@@ -726,11 +726,11 @@ const GALLERY_IMAGES = [
 
 const TRANSLATIONS = {
   "en": {
-    "pageTitle": "Vila Tila | Luxury 5-Star Villa with Heated Indoor Pool & Sauna | Otočac, Croatia",
+    "pageTitle": "Vila Tilia | Luxury 5-Star Villa with Heated Indoor Pool & Sauna | Otočac, Croatia",
     "metaDesc": "Exclusive 5-star holiday villa in Otočac, Lika. Heated indoor pool (21m²), private Finnish sauna, EV charger, 160m² luxury wood & stone design, and peaceful nature by river Gacka.",
     "skipLink": "Skip to main content",
     "brand": {
-      "name": "Vila Tila",
+      "name": "Vila Tilia",
       "starsAria": "5 Star Luxury Villa"
     },
     "nav": {
@@ -793,16 +793,16 @@ const TRANSLATIONS = {
     "about": {
       "tag": "Architectural Haven",
       "title": "A Masterpiece of Natural Timber and Modern Luxury",
-      "p1": "Nestled in the tranquil settlement of Prozor near Otočac, Vila Tila is an architectural marvel created for discerning travelers who value privacy, comfort, and deep immersion into pristine nature.",
+      "p1": "Nestled in the tranquil settlement of Prozor near Otočac, Vila Tilia is an architectural marvel created for discerning travelers who value privacy, comfort, and deep immersion into pristine nature.",
       "p2": "Constructed with natural wood timbers and indigenous stone, the 160 m² villa seamlessly merges authentic alpine charm with contemporary designer aesthetics. High cathedral ceilings and soaring triangular gable windows fill the interior with golden Lika sunlight, while the loft mezzanine offers an intimate vantage over the living salon.",
-      "p3": "Whether taking a morning swim in the private heated pool, warming up in the Finnish cedar sauna after a day of fly fishing along the Gacka, or dining beneath the stars on the illuminated terrace, Vila Tila provides an unforgettable holiday experience.",
+      "p3": "Whether taking a morning swim in the private heated pool, warming up in the Finnish cedar sauna after a day of fly fishing along the Gacka, or dining beneath the stars on the illuminated terrace, Vila Tilia provides an unforgettable holiday experience.",
       "specGrade": "5-Star Categorization",
       "specCapacity": "4 Adults Capacity",
       "specBedrooms": "2 Luxury Suites",
-      "specBathrooms": "2 Bathrooms + 2 Toilets",
+      "specBathrooms": "2 Bathrooms + 1 Extra Toilet",
       "specBuilt": "Built & Designed 2026",
       "specFenced": "Fully Enclosed (120 cm fence)",
-      "badgeTitle": "Vila Tila",
+      "badgeTitle": "Vila Tilia",
       "badgeSub": "Otočac • Prozor • Croatia"
     },
     "wellness": {
@@ -821,20 +821,20 @@ const TRANSLATIONS = {
     "night": {
       "tag": "Nighttime Magic",
       "title": "Enchanting Evenings Under Starlit Mountain Skies",
-      "desc": "As twilight blankets the valley, Vila Tila transforms into a breathtaking illuminated sanctuary. Warm architectural lighting outlines the steep wooden gables, the paved terrace glow guides your way to the outdoor bar, and the private pool shines with vibrant blue luminescence under the crisp Lika night sky.",
+      "desc": "As twilight blankets the valley, Vila Tilia transforms into a breathtaking illuminated sanctuary. Warm architectural lighting outlines the steep wooden gables, the paved terrace glow guides your way to the outdoor bar, and the private pool shines with vibrant blue luminescence under the crisp Lika night sky.",
       "btn": "View Gallery Photos"
     },
     "spaces": {
       "tag": "Explore The Interior",
       "title": "Designed for Uncompromising Comfort & Style",
       "livingTitle": "Cathedral Living Room & Mezzanine Gallery",
-      "livingDesc": "Double-height cathedral ceilings with exposed spruce timber beams, plush fabric sofa, designer fluted coffee table, 55-inch Smart TV with cable, and a custom steel-wood staircase leading to the mezzanine reading lounge.",
+      "livingDesc": "Double-height cathedral ceilings with exposed spruce timber beams, plush fabric sofa, 55-inch Smart TV with cable, and a custom steel-wood staircase leading to the mezzanine reading lounge.",
       "kitchenTitle": "Gourmet Culinary Kitchen & 6-Person Dining",
       "kitchenDesc": "High-spec modern kitchen featuring a 4-zone induction cooktop, convection oven, dishwasher, large refrigerator with 20L freezer, espresso coffee machine, and an elegant circular dining table with ochre and terracotta velvet armchairs.",
       "bedroomTitle": "Two Opulent King-Size Bedroom Suites",
-      "bedroomDesc": "Two master suites equipped with plush king beds, tufted headboards, natural spruce plank paneling, independent heating and cooling air conditioning, flat-screen Smart TVs, and dedicated vanity dressing tables with gold mirrors.",
+      "bedroomDesc": "Two master suites equipped with plush king beds, tufted headboards, natural spruce plank paneling, independent heating and cooling air conditioning, flat-screen Smart TVs, and dedicated vanity dressing tables with mirrors.",
       "bathroomTitle": "Designer Bathrooms with Walk-In Rain Showers",
-      "bathroomDesc": "Two luxurious bathrooms featuring walk-in frameless glass rain showers, fluted cylindrical vanity basins, smart backlit LED mirrors, hair dryers, and washing machine, accompanied by two separate guest toilets.",
+      "bathroomDesc": "Two luxurious bathrooms featuring walk-in frameless glass rain showers, fluted cylindrical vanity basins, smart backlit LED mirrors, hair dryers, and washing machine, accompanied by one separat guest toilets.",
       "outdoorTitle": "Sun Deck, Pergola & Summer Barbecue Kitchen",
       "outdoorDesc": "Generous paved courtyard featuring 4 premium sun loungers, an outdoor shower, a covered dining gazebo with electric barbecue grill, food prep counter with sink, hanging egg swing, and handcrafted wooden cocktail bar.",
       "parkingTitle": "Private Parking & EV Charging",
@@ -853,7 +853,7 @@ const TRANSLATIONS = {
         "individualAc": "Individual A/C",
         "vanityDesks": "Vanity Desks",
         "showers2": "2 Rain Showers",
-        "toilets2": "2 Extra Toilets",
+        "toilets2": "1 Extra Toilet",
         "washingMachine": "Washing Machine",
         "ledMirrors": "LED Mirrors",
         "electricBbq": "Electric BBQ Grill",
@@ -869,7 +869,7 @@ const TRANSLATIONS = {
     "gallery": {
       "tag": "Visual Experience",
       "title": "Every Detail Captured in High Definition",
-      "subtitle": "Browse 43 verified high-resolution photographs of Vila Tila and the surrounding natural paradise of Lika.",
+      "subtitle": "Browse 43 verified high-resolution photographs of Vila Tilia and the surrounding natural paradise of Lika.",
       "filterAll": "All Photos (43)",
       "filterExterior": "Architecture & Exterior",
       "filterPool": "Pool & Wellness",
@@ -963,11 +963,11 @@ const TRANSLATIONS = {
       "q4": "Can we walk to the river Gacka from the villa?",
       "a4": "Yes, lovely walking and hiking trails start just 20 meters from our doorstep. The main fishing and kayaking spots on river Gacka are an easy 5-7 minute drive (6 km).",
       "q5": "Is the villa fully private and enclosed?",
-      "a5": "Absolutely. Vila Tila is entirely private for your exclusive group only. The entire property is enclosed with a 120 cm perimeter fence and a designer security gate."
+      "a5": "Absolutely. Vila Tilia is entirely private for your exclusive group only. The entire property is enclosed with a 120 cm perimeter fence and a designer security gate."
     },
     "inquiry": {
       "tag": "Inquire & Reserve",
-      "title": "Plan Your Escape to Vila Tila",
+      "title": "Plan Your Escape to Vila Tilia",
       "subtitle": "Send us a direct inquiry for tailored assistance, or book with instant confirmation on Novasol.",
       "fullName": "Your Full Name",
       "email": "Email Address",
@@ -1010,7 +1010,7 @@ const TRANSLATIONS = {
     "privacy": {
       "modalTitle": "Privacy Policy & GDPR Statement",
       "controllerTitle": "1. Data Controller",
-      "controllerText": "Vila Tila (Novasol CCL380), Prozor, Otočac, Lika-Senj County, Croatia. For privacy inquiries, contact us via the official inquiry form.",
+      "controllerText": "Vila Tilia (Novasol CCL380), Prozor, Otočac, Lika-Senj County, Croatia. For privacy inquiries, contact us via the official inquiry form.",
       "purposeTitle": "2. Purpose of Data Processing",
       "purposeText": "Personal information provided in the inquiry form (name, email, phone number) is processed solely for answering your booking inquiries and organizing your stay.",
       "legalTitle": "3. Legal Basis & Retention",
@@ -1027,17 +1027,17 @@ const TRANSLATIONS = {
       "legal": "Novasol Code: CCL380",
       "category": "5-Star Luxury Tourist Rental",
       "ev": "Private EV Fast Charger On-site",
-      "rights": "All rights reserved. Vila Tila © 2026.",
+      "rights": "All rights reserved. Vila Tilia © 2026.",
       "accessibility": "WCAG 2.2 AA/AAA Compliant • Optimized for Screen Readers",
       "backToTopAria": "Back to top"
     }
   },
   "hr": {
-    "pageTitle": "Vila Tila | Luksuzna kuća za odmor s 5 zvjezdica, grijanim bazenom i saunom | Otočac",
+    "pageTitle": "Vila Tilia | Luksuzna kuća za odmor s 5 zvjezdica, grijanim bazenom i saunom | Otočac",
     "metaDesc": "Ekskluzivna kuća za odmor s 5 zvjezdica u Otočcu, Lika. Grijani unutarnji bazen (21 m²), finska sauna, EV punjač, 160 m² luksuzne drvene gradnje uz rijeku Gacku.",
     "skipLink": "Pređi na glavni sadržaj",
     "brand": {
-      "name": "Vila Tila",
+      "name": "Vila Tilia",
       "starsAria": "Luksuzna kuća za odmor s 5 zvjezdica"
     },
     "nav": {
@@ -1100,16 +1100,16 @@ const TRANSLATIONS = {
     "about": {
       "tag": "Arhitektonsko utočište",
       "title": "Remek-djelo prirodnog drva i vrhunskog komfora",
-      "p1": "Smještena u pitomom ličkom naselju Prozor pokraj Otočca, Vila Tila pruža izniman doživljaj odmora za goste koji cijene potpunu privatnost, komfor i neposredan dodir s prirodom.",
+      "p1": "Smještena u pitomom ličkom naselju Prozor pokraj Otočca, Vila Tilia pruža izniman doživljaj odmora za goste koji cijene potpunu privatnost, komfor i neposredan dodir s prirodom.",
       "p2": "Izgrađena od masivnih drvenih greda i autohtonog kamena, ova kuća za odmor od 160 m² spaja toplinu planinske kuće s modernim dizajnerskim rješenjima. Visoki otvoreni stropovi i krovni prozori obasjavaju prostor prirodnim svjetlom, dok prostrana galerija na katu pruža miran kutak s pogledom na salon.",
-      "p3": "Bilo da započinjete jutro plivanjem u grijanom bazenu, opuštate se u finskoj sauni nakon mušičarenja na rijeci Gacki ili provodite ugodnu večer na osvijetljenoj terasi uz roštilj, Vila Tila jamči istinski odmor za dušu i tijelo.",
+      "p3": "Bilo da započinjete jutro plivanjem u grijanom bazenu, opuštate se u finskoj sauni nakon mušičarenja na rijeci Gacki ili provodite ugodnu večer na osvijetljenoj terasi uz roštilj, Vila Tilia jamči istinski odmor za dušu i tijelo.",
       "specGrade": "Kategorizacija: 5 zvjezdica",
       "specCapacity": "Kapacitet: do 4 odrasle osobe",
       "specBedrooms": "2 raskošne spavaće sobe",
-      "specBathrooms": "2 kupaonice + 2 zasebna WC-a",
+      "specBathrooms": "2 kupaonice + 1 zasebni WC",
       "specBuilt": "Godina izgradnje i uređenja: 2026.",
       "specFenced": "Potpuno ograđeno imanje (visina 120 cm)",
-      "badgeTitle": "Vila Tila",
+      "badgeTitle": "Vila Tilia",
       "badgeSub": "Otočac • Prozor • Hrvatska"
     },
     "wellness": {
@@ -1128,22 +1128,22 @@ const TRANSLATIONS = {
     "night": {
       "tag": "Noćni ugođaj",
       "title": "Čarobne večeri pod zvjezdanim ličkim nebom",
-      "desc": "Kada se spusti sumrak, Vila Tila poprima bajkovito ozračje. Tople linije rasvjete naglašavaju strme drvene krovove, popločano dvorište vodi prema vanjskom šanku i pergoli, a tirkizni bazen diskretno svijetli pod bistrim zvjezdanim nebom.",
+      "desc": "Kada se spusti sumrak, Vila Tilia poprima bajkovito ozračje. Tople linije rasvjete naglašavaju strme drvene krovove, popločano dvorište vodi prema vanjskom šanku i natkrivenom sjenicom, a tirkizni bazen diskretno svijetli pod bistrim zvjezdanim nebom.",
       "btn": "Pogledajte galeriju fotografija"
     },
     "spaces": {
       "tag": "Raspored i prostor",
       "title": "Osmišljeno za besprijekoran komfor i stil",
       "livingTitle": "Dnevni boravak visokog stropa i galerija",
-      "livingDesc": "Otvoreni prostor visine do krovnog sljemena s vidljivim smrekovim gredama, modernim kaučem, dizajnerskim stolićem, velikim 55\" Smart TV-om i unikatnim stubištem koje vodi na galeriju za čitanje.",
+      "livingDesc": "Otvoreni prostor visine do krovnog sljemena s vidljivim smrekovim gredama, modernim kaučem, velikim 55\" Smart TV-om i unikatnim stubištem koje vodi na galeriju za čitanje.",
       "kitchenTitle": "Vrhunska kuhinja i blagovaonica za 6 osoba",
       "kitchenDesc": "Potpuno opremljena kuhinja s indukcijskom pločom (4 zone), pećnicom, perilicom posuđa, hladnjakom s pretincem za zamrzavanje (20 l), aparatom za kavu te okruglim stolom sa šest udobnih fotelja.",
       "bedroomTitle": "Dvije prostrane sobe s bračnim krevetima",
-      "bedroomDesc": "Dvije elegantne spavaće sobe s udobnim bračnim krevetima, tapeciranim uzglavljima, prirodnim drvenim zidovima, zasebnim klima-uređajima, Smart TV-ima i toaletnim stolićima sa zlatnim ogledalima.",
+      "bedroomDesc": "Dvije elegantne spavaće sobe s udobnim bračnim krevetima, tapeciranim uzglavljima, prirodnim drvenim zidovima, zasebnim klima-uređajima, Smart TV-ima i toaletnim stolićima sa ogledalima.",
       "bathroomTitle": "Dvije dizajnerske kupaonice s walk-in tuševima",
       "bathroomDesc": "Dvije luksuzne kupaonice sa staklenim walk-in tuševima s kišnim efektom, ormarićima s modernim umivaonicima, osvijetljenim ogledalima, perilicom rublja te još dva odvojena WC-a (ukupno 4 sanitarna čvora).",
-      "outdoorTitle": "Sunčalište, natkrivena pergola i ljetna kuhinja",
-      "outdoorDesc": "Prostrano popločano dvorište s četiri udobne ležaljke, vanjskim tušem, natkrivenom pergolom s električnim roštiljem, radnom plohom sa sudoperom, stolom za blagovanje, visećom foteljom i vanjskim šankom.",
+      "outdoorTitle": "Sunčalište, natkrivena sjenica i ljetna kuhinja",
+      "outdoorDesc": "Prostrano popločano dvorište s četiri udobne ležaljke, vanjskim tušem, natkrivenom sjenicom s električnim roštiljem, radnom plohom sa sudoperom, stolom za blagovanje, visećom foteljom i vanjskim šankom.",
       "parkingTitle": "Privatni parking i punionica za EV",
       "parkingDesc": "Tri osigurana parkirna mjesta unutar ograđenog dvorišta s automatskim vratima i vlastitom punionicom za električna vozila.",
       "tags": {
@@ -1160,7 +1160,7 @@ const TRANSLATIONS = {
         "individualAc": "Zasebna klima",
         "vanityDesks": "Toaletni stolići",
         "showers2": "2 walk-in tuša",
-        "toilets2": "2 zasebna WC-a",
+        "toilets2": "1 zasebni WC",
         "washingMachine": "Perilica rublja",
         "ledMirrors": "LED ogledala",
         "electricBbq": "Električni roštilj",
@@ -1176,7 +1176,7 @@ const TRANSLATIONS = {
     "gallery": {
       "tag": "Vizualni doživljaj",
       "title": "Svaki detalj u visokoj rezoluciji",
-      "subtitle": "Pregledajte 43 provjerene fotografije visoke rezolucije Vile Tila i predivnog kraja uz rijeku Gacku.",
+      "subtitle": "Pregledajte 43 provjerene fotografije visoke rezolucije Vile Tilia i predivnog kraja uz rijeku Gacku.",
       "filterAll": "Sve fotografije (43)",
       "filterExterior": "Arhitektura i eksterijer",
       "filterPool": "Bazen i sauna",
@@ -1270,7 +1270,7 @@ const TRANSLATIONS = {
       "q4": "Može li se od vile pješice doći do rijeke Gacke?",
       "a4": "Uređene staze za šetnju počinju svega 20 metara od same vile. Glavna ribolovna i rekreacijska mjesta na Gacki nalaze se na 5 do 7 minuta vožnje (6 km).",
       "q5": "Je li posjed potpuno ograđen i jamči li privatnost?",
-      "a5": "U potpunosti. Vila Tila se iznajmljuje isključivo jednoj grupi gostiju. Cijelo imanje ograđeno je ogradom visine 120 cm s automatskim vratima, što jamči mir i potpunu diskreciju."
+      "a5": "U potpunosti. Vila Tilia se iznajmljuje isključivo jednoj grupi gostiju. Cijelo imanje ograđeno je ogradom visine 120 cm s automatskim vratima, što jamči mir i potpunu diskreciju."
     },
     "inquiry": {
       "tag": "Rezervacija i upiti",
@@ -1317,7 +1317,7 @@ const TRANSLATIONS = {
     "privacy": {
       "modalTitle": "Pravila privatnosti i GDPR zaštita podataka",
       "controllerTitle": "1. Voditelj obrade podataka",
-      "controllerText": "Vila Tila (Novasol CCL380), Prozor, Otočac, Ličko-senjska županija, Hrvatska. Za sve upite o privatnosti možete nas kontaktirati putem obrasca za upit.",
+      "controllerText": "Vila Tilia (Novasol CCL380), Prozor, Otočac, Ličko-senjska županija, Hrvatska. Za sve upite o privatnosti možete nas kontaktirati putem obrasca za upit.",
       "purposeTitle": "2. Svrha obrade podataka",
       "purposeText": "Osobni podaci koje navedete u obrascu za upit (ime i prezime, adresa e-pošte, broj telefona) obrađuju se isključivo radi odgovaranja na vaš upit i organizacije vašeg boravka.",
       "legalTitle": "3. Pravna osnova i čuvanje podataka",
@@ -1334,7 +1334,7 @@ const TRANSLATIONS = {
       "legal": "Novasol šifra objekta: CCL380",
       "category": "Kategorizacija: 5 zvjezdica",
       "ev": "Vlastiti punjač za EV na posjedu",
-      "rights": "Sva prava pridržana. Vila Tila © 2026.",
+      "rights": "Sva prava pridržana. Vila Tilia © 2026.",
       "accessibility": "WCAG 2.2 AA/AAA usklađeno • Prilagođeno čitačima ekrana",
       "backToTopAria": "Povratak na vrh"
     }
@@ -1342,7 +1342,7 @@ const TRANSLATIONS = {
 };
 
 // Theme state & immediate application (prevents FOUC)
-let currentTheme = (typeof localStorage !== 'undefined' && localStorage.getItem('vila_tila_theme')) || 
+let currentTheme = (typeof localStorage !== 'undefined' && localStorage.getItem('vila_tila_theme')) ||
   (typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
 if (typeof document !== 'undefined' && document.documentElement) {
   document.documentElement.setAttribute('data-theme', currentTheme);
@@ -1390,8 +1390,8 @@ function initTheme() {
 
     if (themeToggleBtn) {
       const t = TRANSLATIONS[currentLanguage]?.nav;
-      const ariaLabel = theme === 'light' 
-        ? (t?.themeLightAria || 'Switch to dark theme') 
+      const ariaLabel = theme === 'light'
+        ? (t?.themeLightAria || 'Switch to dark theme')
         : (t?.themeDarkAria || 'Switch to light theme');
       themeToggleBtn.setAttribute('aria-label', ariaLabel);
       themeToggleBtn.setAttribute('title', ariaLabel);
@@ -1428,7 +1428,7 @@ function setLanguage(lang) {
   currentLanguage = lang;
   localStorage.setItem('vila_tila_lang', lang);
   document.documentElement.lang = lang;
-  
+
   const t = TRANSLATIONS[lang];
   document.title = t.pageTitle;
   const metaDesc = document.querySelector('meta[name="description"]');
@@ -1491,7 +1491,7 @@ function setLanguage(lang) {
 
   // Re-render gallery images to update alt and sr_desc texts
   renderGalleryGrid();
-  
+
   // Update lightbox content if currently open
   const lightboxModal = document.getElementById('lightbox-modal');
   if (lightboxModal && !lightboxModal.hidden) {
@@ -1536,7 +1536,7 @@ function initNavigation() {
 
   // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+    anchor.addEventListener('click', function (e) {
       const targetId = this.getAttribute('href');
       if (targetId === '#' || targetId === '#!') return;
       const targetEl = document.querySelector(targetId);
@@ -1560,7 +1560,7 @@ function initGallery() {
       btn.classList.add('active');
       btn.setAttribute('aria-selected', 'true');
       currentFilter = btn.getAttribute('data-filter');
-      
+
       if (currentFilter === 'all') {
         filteredImages = [...GALLERY_IMAGES];
       } else {
@@ -1593,21 +1593,21 @@ function renderGalleryGrid() {
     card.innerHTML = `
       <figure class="gallery-figure">
         <div class="gallery-image-wrapper">
-          <img 
-            src="images/gallery/${img.new_name}" 
-            alt="${escapeHtml(altText)}" 
-            loading="lazy" 
-            decoding="async" 
-            width="600" 
+          <img
+            src="images/gallery/${img.new_name}"
+            alt="${escapeHtml(altText)}"
+            loading="lazy"
+            decoding="async"
+            width="600"
             height="400"
             aria-describedby="${descId}"
           >
           <div class="gallery-overlay">
             <span class="gallery-badge">${formatCategoryBadge(img.category, isHr)}</span>
             <h3 class="gallery-card-title">${escapeHtml(title)}</h3>
-            <button 
-              type="button" 
-              class="gallery-zoom-btn" 
+            <button
+              type="button"
+              class="gallery-zoom-btn"
               aria-label="${isHr ? 'Povećaj fotografiju: ' + title : 'Enlarge photo: ' + title}"
               data-img-index="${index}"
             >
@@ -1721,7 +1721,7 @@ function openLightbox(index) {
   modal.setAttribute('aria-hidden', 'false');
   document.body.classList.add('lightbox-open');
   updateLightboxSlide(activeLightboxIndex);
-  
+
   setTimeout(() => {
     document.getElementById('lightbox-close-btn')?.focus();
   }, 50);
@@ -1778,7 +1778,7 @@ function updateLightboxSlide(index) {
 
   // Screen reader announcement
   if (liveEl) {
-    liveEl.textContent = isHr 
+    liveEl.textContent = isHr
       ? `Slika ${index + 1} od ${filteredImages.length}: ${title}`
       : `Image ${index + 1} of ${filteredImages.length}: ${title}`;
   }
@@ -2169,7 +2169,7 @@ function initA11y() {
 
 function escapeHtml(str) {
   if (!str) return '';
-  return str.replace(/[&<>"']/g, function(m) {
+  return str.replace(/[&<>"']/g, function (m) {
     return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
   });
 }
