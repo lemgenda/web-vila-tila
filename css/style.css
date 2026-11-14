@@ -377,6 +377,10 @@ button {
   flex-shrink: 0;
 }
 
+.mobile-nav-controls-item {
+  display: none;
+}
+
 /* Theme Toggle Button */
 .theme-toggle-btn {
   display: inline-flex;
@@ -2137,10 +2141,6 @@ textarea.form-control {
     width: 100%;
     gap: 1.25rem;
   }
-
-.mobile-nav-controls-item {
-  display: none;
-}
 
   .nav-link {
     font-size: 1.15rem;
