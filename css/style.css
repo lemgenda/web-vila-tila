@@ -2135,12 +2135,16 @@ textarea.form-control {
     align-items: flex-start;
     overflow-y: auto;
     transform: translateX(100%);
-    transition: transform var(--transition-base);
+    visibility: hidden;
+    pointer-events: none;
+    transition: transform var(--transition-base), visibility var(--transition-base);
     margin-inline: 0;
   }
 
   .main-nav.nav-open {
     transform: translateX(0);
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .nav-list {
