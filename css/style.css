@@ -121,6 +121,7 @@ html {
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 
 body {
@@ -128,7 +129,7 @@ body {
   background-color: var(--color-bg-base);
   color: var(--color-text-secondary);
   line-height: 1.65;
-  overflow-x: hidden;
+  overflow-x: clip;
   position: relative;
 }
 
