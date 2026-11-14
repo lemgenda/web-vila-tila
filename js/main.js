@@ -6,7 +6,7 @@
 const GALLERY_IMAGES = [
   {
     "old_name": "IMG-20260916-WA0000-2048.webp",
-    "new_name": "vila-tila-indoor-pool-marble-interior.webp",
+    "new_name": "vila-tilia-indoor-pool-marble-interior.webp",
     "category": "pool",
     "tags": [
       "pool",
@@ -22,7 +22,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0001-2048.webp",
-    "new_name": "vila-tila-luxury-bathroom-vanity-mirror.webp",
+    "new_name": "vila-tilia-luxury-bathroom-vanity-mirror.webp",
     "category": "rooms",
     "tags": [
       "bathroom",
@@ -38,7 +38,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0002-2048.webp",
-    "new_name": "vila-tila-covered-terrace-summer-kitchen-night.webp",
+    "new_name": "vila-tilia-covered-terrace-summer-kitchen-night.webp",
     "category": "exterior",
     "tags": [
       "terrace",
@@ -55,7 +55,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0003-2048.webp",
-    "new_name": "vila-tila-indoor-swimming-pool-sauna-overview.webp",
+    "new_name": "vila-tilia-indoor-swimming-pool-sauna-overview.webp",
     "category": "pool",
     "tags": [
       "pool",
@@ -71,7 +71,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0004-2048.webp",
-    "new_name": "vila-tila-guest-toilet-powder-room.webp",
+    "new_name": "vila-tilia-guest-toilet-powder-room.webp",
     "category": "rooms",
     "tags": [
       "bathroom",
@@ -87,7 +87,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0005-2048.webp",
-    "new_name": "vila-tila-walk-in-shower-bathroom.webp",
+    "new_name": "vila-tilia-walk-in-shower-bathroom.webp",
     "category": "rooms",
     "tags": [
       "bathroom",
@@ -120,7 +120,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0008-2048.webp",
-    "new_name": "vila-tila-courtyard-patio-pool-house-night.webp",
+    "new_name": "vila-tilia-courtyard-patio-pool-house-night.webp",
     "category": "exterior",
     "tags": [
       "exterior",
@@ -137,7 +137,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0009-2048.webp",
-    "new_name": "vila-tila-outdoor-pergola-dining-night.webp",
+    "new_name": "vila-tilia-outdoor-pergola-dining-night.webp",
     "category": "exterior",
     "tags": [
       "terrace",
@@ -154,7 +154,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0010-2048.webp",
-    "new_name": "vila-tila-loft-gallery-high-ceiling-architecture.webp",
+    "new_name": "vila-tilia-loft-gallery-high-ceiling-architecture.webp",
     "category": "living",
     "tags": [
       "interior",
@@ -171,7 +171,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0011-2048.webp",
-    "new_name": "vila-tila-upper-floor-bedroom-king-bed.webp",
+    "new_name": "vila-tilia-upper-floor-bedroom-king-bed.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -188,7 +188,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0012-2048.webp",
-    "new_name": "vila-tila-bedroom-vanity-desk-mirror.webp",
+    "new_name": "vila-tilia-bedroom-vanity-desk-mirror.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -204,7 +204,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0013-2048.webp",
-    "new_name": "vila-tila-aerial-drone-estate-night-view.webp",
+    "new_name": "vila-tilia-aerial-drone-estate-night-view.webp",
     "category": "exterior",
     "tags": [
       "aerial",
@@ -221,7 +221,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0014-2048.webp",
-    "new_name": "vila-tila-aerial-daylight-residence-pool-terrace.webp",
+    "new_name": "vila-tilia-aerial-daylight-residence-pool-terrace.webp",
     "category": "exterior",
     "tags": [
       "aerial",
@@ -238,7 +238,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0015-2048.webp",
-    "new_name": "vila-tila-open-concept-living-dining-kitchen.webp",
+    "new_name": "vila-tilia-open-concept-living-dining-kitchen.webp",
     "category": "living",
     "tags": [
       "living",
@@ -255,7 +255,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0016-2048.webp",
-    "new_name": "vila-tila-ground-floor-bedroom-tv-desk.webp",
+    "new_name": "vila-tilia-ground-floor-bedroom-tv-desk.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -271,7 +271,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0017-2048.webp",
-    "new_name": "vila-tila-cathedral-ceiling-living-room-sofa.webp",
+    "new_name": "vila-tilia-cathedral-ceiling-living-room-sofa.webp",
     "category": "living",
     "tags": [
       "living",
@@ -288,7 +288,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0018-2048.webp",
-    "new_name": "vila-tila-bedroom-ensuite-entrance-ac.webp",
+    "new_name": "vila-tilia-bedroom-ensuite-entrance-ac.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -304,7 +304,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0019-2048.webp",
-    "new_name": "vila-tila-bedroom-bed-tufted-headboard-close.webp",
+    "new_name": "vila-tilia-bedroom-bed-tufted-headboard-close.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -320,7 +320,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0020-2048.webp",
-    "new_name": "vila-tila-mezzanine-loft-terracotta-lounge.webp",
+    "new_name": "vila-tilia-mezzanine-loft-terracotta-lounge.webp",
     "category": "living",
     "tags": [
       "loft",
@@ -337,7 +337,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0021-2048.webp",
-    "new_name": "vila-tila-summer-kitchen-pergola-barbecue-night.webp",
+    "new_name": "vila-tilia-summer-kitchen-pergola-barbecue-night.webp",
     "category": "exterior",
     "tags": [
       "terrace",
@@ -354,7 +354,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0022-2048.webp",
-    "new_name": "vila-tila-heated-pool-wellness-glass-facade.webp",
+    "new_name": "vila-tilia-heated-pool-wellness-glass-facade.webp",
     "category": "pool",
     "tags": [
       "pool",
@@ -371,7 +371,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0023-2048.webp",
-    "new_name": "vila-tila-indoor-heated-pool-water-reflection.webp",
+    "new_name": "vila-tilia-indoor-heated-pool-water-reflection.webp",
     "category": "pool",
     "tags": [
       "pool",
@@ -387,7 +387,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0024-2048.webp",
-    "new_name": "vila-tila-night-terrace-sun-loungers-villa-view.webp",
+    "new_name": "vila-tilia-night-terrace-sun-loungers-villa-view.webp",
     "category": "exterior",
     "tags": [
       "exterior",
@@ -404,7 +404,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0026-2048.webp",
-    "new_name": "vila-tila-bedroom-vanity-gold-round-mirror.webp",
+    "new_name": "vila-tilia-bedroom-vanity-gold-round-mirror.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -420,7 +420,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0027-2048.webp",
-    "new_name": "vila-tila-modern-bathroom-rain-shower-details.webp",
+    "new_name": "vila-tilia-modern-bathroom-rain-shower-details.webp",
     "category": "rooms",
     "tags": [
       "bathroom",
@@ -436,7 +436,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0028-2048.webp",
-    "new_name": "vila-tila-master-bedroom-ensuite-bathroom-view.webp",
+    "new_name": "vila-tilia-master-bedroom-ensuite-bathroom-view.webp",
     "category": "rooms",
     "tags": [
       "bedroom",
@@ -452,7 +452,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0029-2048.webp",
-    "new_name": "vila-tila-pool-pavilion-sliding-glass-patio-night.webp",
+    "new_name": "vila-tilia-pool-pavilion-sliding-glass-patio-night.webp",
     "category": "pool",
     "tags": [
       "pool",
@@ -469,7 +469,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0030-2048.webp",
-    "new_name": "vila-tila-daylight-patio-pool-house-pergola.webp",
+    "new_name": "vila-tilia-daylight-patio-pool-house-pergola.webp",
     "category": "exterior",
     "tags": [
       "exterior",
@@ -486,7 +486,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0031-2048.webp",
-    "new_name": "vila-tila-dining-room-table-chairs-chandelier.webp",
+    "new_name": "vila-tilia-dining-room-table-chairs-chandelier.webp",
     "category": "living",
     "tags": [
       "dining",
@@ -502,7 +502,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0032-2048.webp",
-    "new_name": "vila-tila-living-dining-space-patio-view.webp",
+    "new_name": "vila-tilia-living-dining-space-patio-view.webp",
     "category": "living",
     "tags": [
       "living",
@@ -519,7 +519,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0033-2048.webp",
-    "new_name": "vila-tila-architectural-staircase-tv-console.webp",
+    "new_name": "vila-tilia-architectural-staircase-tv-console.webp",
     "category": "living",
     "tags": [
       "living",
@@ -536,7 +536,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0034-2048.webp",
-    "new_name": "vila-tila-ground-floor-panoramic-interior-view.webp",
+    "new_name": "vila-tilia-ground-floor-panoramic-interior-view.webp",
     "category": "living",
     "tags": [
       "living",
@@ -553,7 +553,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0035-2048.webp",
-    "new_name": "vila-tila-front-entrance-laser-cut-gate-exterior.webp",
+    "new_name": "vila-tilia-front-entrance-laser-cut-gate-exterior.webp",
     "category": "exterior",
     "tags": [
       "exterior",
@@ -587,7 +587,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0038-2048.webp",
-    "new_name": "vila-tila-outdoor-terrace-wooden-bar-night.webp",
+    "new_name": "vila-tilia-outdoor-terrace-wooden-bar-night.webp",
     "category": "exterior",
     "tags": [
       "terrace",
@@ -604,7 +604,7 @@ const GALLERY_IMAGES = [
   },
   {
     "old_name": "IMG-20260916-WA0039-2048.webp",
-    "new_name": "vila-tila-grand-living-room-timber-loft-view.webp",
+    "new_name": "vila-tilia-grand-living-room-timber-loft-view.webp",
     "category": "living",
     "tags": [
       "living",
