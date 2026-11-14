@@ -516,6 +516,8 @@ button {
   padding-top: calc(var(--header-height) + 2rem);
   padding-bottom: 5rem;
   background: url('../images/BackgroundDayImage.webp') no-repeat center center / cover;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .hero-overlay {
@@ -533,7 +535,9 @@ button {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 880px;
+  width: 100%;
+  min-width: 0;
+  max-width: min(880px, 100%);
 }
 
 .hero-badge-wrap {
