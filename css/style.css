@@ -2138,6 +2138,10 @@ textarea.form-control {
     gap: 1.25rem;
   }
 
+.mobile-nav-controls-item {
+  display: none;
+}
+
   .nav-link {
     font-size: 1.15rem;
     width: 100%;
